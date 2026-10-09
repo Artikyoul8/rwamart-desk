@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "updated": "2026-10-09T01:04:27-04:00",
+  "entries": [
+    {
+      "id": "MART-2026-10-09-002",
+      "date": "2026-10-09",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Data",
+      "tier": "",
+      "head": "Tokenized equities reach 1.94% of stablecoin supply, Crypto Briefing reports",
+      "fact": "Crypto Briefing reports tokenized equities stood near $5.89B on September 29, about 1.94% of roughly $304B in stablecoins, up from 0.12% in late August 2025.",
+      "num": "1.94%",
+      "numLabel": "tokenized equities as share of stablecoin supply, Sep 29",
+      "mech": "",
+      "mechanism": "Tokenized shares and stablecoins both settle onchain, so the ratio shows how much of the dollar-token base is matched by equity exposure; the article names no data provider.",
+      "implication": "Growth is fast from a small base. The article's own figures conflict, so the ratio is best read as indicative, not exact.",
+      "evidence": [
+        "Reported September month-end snapshot: $4.87B tokenized equities, 1.55% of a $313B stablecoin market",
+        "Reported September trading volume of $15.6B, with Robinhood about 42%",
+        "Conflict: the Sep 29 stablecoin total ($304B) is lower than the September snapshot ($313B); the article does not explain the gap",
+        "The article does not name the data provider or methodology"
+      ],
+      "source": {
+        "n": "Crypto Briefing",
+        "u": "https://cryptobriefing.com/tokenized-equities-surpass-1-percent-stablecoin-supply/"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-09-001",
+      "date": "2026-10-09",
+      "fr": "tape",
+      "lv": 1,
+      "topic": "Institutional",
+      "tier": "",
+      "head": "Nasdaq CEO: tokenization could unleash tens of billions of dollars in trapped capital",
+      "fact": "CNBC reports that Nasdaq’s CEO said tokenization could unleash tens of billions of dollars in trapped capital.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "The claim concerns capital locked up by settlement delays and limited collateral mobility, the friction that on-ledger settlement is meant to reduce.",
+      "implication": "A second exchange operator in a week is framing tokenization as a capital-efficiency story. The desk could read only the headline at filing, so the figure and its basis are unverified; see the CNBC article.",
+      "evidence": [
+        "The desk could read the headline only; the full article was not accessible at filing"
+      ],
+      "source": {
+        "n": "CNBC",
+        "u": "https://cnbc.com/2026/10/09/nasdaq-ceo-tokenization-could-unleash-billions-in-trapped-capital-.html"
+      },
+      "links": [],
+      "record": "Wire only (Signal)",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-08-001",
+      "date": "2026-10-08",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Markets",
+      "tier": "",
+      "head": "Securitize launches 1:1-backed tokenized stocks on Solana",
+      "fact": "On October 8 Securitize launched tokenized U.S. stocks backed 1:1 by shares held at Securitize Markets’ regulated brokerage, using a Convertible Entitlement Token structure. The tokens run on Solana, settle in USDC, and are open to eligible investors in the U.S., the EU and other jurisdictions.",
+      "num": "1:1",
+      "numLabel": "backing by underlying shares held at a regulated brokerage",
+      "mech": "distribution",
+      "mechanism": "Holders receive shareholder rights, dividends and corporate-action entitlements through the token, and can move to an issuer-sponsored share structure if the issuer adopts one.",
+      "implication": "The entitlement lives in the token. Alongside the SEC’s September 17 exemption and the OKXICE filing, tokenized stocks are moving from announcement to product.",
+      "evidence": [
+        "Initial names include Apple, Microsoft, Nvidia, Alphabet, Tesla, Meta and Amazon; SpaceX, Palantir, Circle and Strategy are expected",
+        "Extended U.S. market hours at first, with plans to expand toward 24/7 trading",
+        "CEO Carlos Domingo: “Tokenized stocks should give investors more than a price that happens to track a stock.”",
+        "Tokenized stocks had passed $3B of onchain value"
+      ],
+      "source": {
+        "n": "The Block",
+        "u": "https://www.theblock.co/news/markets/2026-10-08-securitize-launches-tokenized-us-stocks-solana-418043"
+      },
+      "links": [
+        {
+          "t": "Crowdfund Insider: global availability",
+          "u": "https://www.crowdfundinsider.com/2026/10/316736-tokenization-securitize-announces-global-availability-of-tokenized-stocks/"
+        }
+      ],
+      "record": "Learn › The Mechanism › Auto-distribution",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-08-002",
+      "date": "2026-10-08",
+      "fr": "datadesk",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "",
+      "head": "IMF: tokenized markets are about $65B against $300T of traditional assets",
+      "fact": "An analytical chapter of the IMF’s Global Financial Stability Report, as reported on October 8, puts tokenized real-world assets at about $65B against roughly $300T of traditional capital-market assets, and names four barriers: legal certainty, regulatory clarity, interoperability and settlement assets.",
+      "num": "$65B",
+      "numLabel": "tokenized RWAs per the IMF, vs. about $300T in traditional capital markets",
+      "mech": "compliance",
+      "mechanism": "Two of the four barriers concern the rules around the token: whether holders can enforce the rights it represents, and how existing regulation applies to new ledgers.",
+      "implication": "The “settlement assets” barrier, a lack of safe and widely accepted money for settling trades, bears directly on native stablecoins such as TX’s announced USTX.",
+      "evidence": [
+        "More than half of tokenized trading happened outside regular market hours",
+        "About 80% of the tokenized equity trades analyzed were for less than one share",
+        "Repo makes up most tokenized activity: roughly $300–350B of daily transactions, against about $13T of daily U.S. repo volume",
+        "The IMF says tokenized markets “remain inactive and more volatile than their traditional counterparts” and warns that scale could amplify fire sales and contagion"
+      ],
+      "source": {
+        "n": "The Coin Republic, reporting the IMF Global Financial Stability Report",
+        "u": "https://thecoinrepublic.com/2026/10/08/imf-warns-65b-rwa-tokenization-market-faces-4-major-hurdles"
+      },
+      "links": [
+        {
+          "t": "Genfinity coverage",
+          "u": "https://genfinity.io/2026/10/08/imf-tokenization-report-65-billion-300-trillion"
+        }
+      ],
+      "record": "Metrics › Reconciliation",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-08-003",
+      "date": "2026-10-08",
+      "fr": "tape",
+      "lv": 1,
+      "topic": "Institutional",
+      "tier": "",
+      "head": "Fidelity’s Horne: the line between TradFi and onchain may vanish into “just finance”",
+      "fact": "On a panel at Longitude Singapore on October 8, Matthew Horne, a Fidelity digital-asset strategy lead, said the gap between traditional and onchain finance might disappear, leaving what he called “just finance.”",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "The remark is about convergence: as assets and settlement move onto shared ledgers, “onchain” stops being a separate market.",
+      "implication": "Fidelity already offers onchain products, including tokenized exposure to money-market funds and U.S. Treasurys, so the comment comes from an operator, not an observer.",
+      "evidence": [
+        "Reporter’s paraphrase: institutional assets are moving onchain quickly, and U.S. asset managers are motivated mainly by investor access and new markets"
+      ],
+      "source": {
+        "n": "Crypto Briefing",
+        "u": "https://cryptobriefing.com/fidelity-matthew-horne-onchain-just-finance"
+      },
+      "links": [],
+      "record": "Wire only (Signal)",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-05-002",
+      "date": "2026-10-05",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "",
+      "head": "OKXICE files to trade tokenized shares of 63 NYSE-listed companies",
+      "fact": "OKXICE LLC, a joint venture between OKX and NYSE parent Intercontinental Exchange, filed with the SEC on October 4 to offer tokenized shares of an initial 63 NYSE-listed companies, pending approval, under the SEC’s new innovation exemption.",
+      "num": "63",
+      "numLabel": "NYSE-listed companies in the initial offering, pending approval",
+      "mech": "conditional",
+      "mechanism": "Issuers have 30 days to opt out before trading can begin, and tokenized securities must carry full shareholder rights such as dividends and voting.",
+      "implication": "The September 17 exemption now has its first filings: the venue, the opt-out window and the holder-rights conditions are written into the launch path.",
+      "evidence": [
+        "ICE took a stake in OKX in March in a deal valuing the crypto firm at $25B",
+        "OKXICE co-chair Andrew Cuomo: “This is 24-hour, global stock market trading and has enormous advantages.”",
+        "Launch timing depends on the 30-day opt-out period and other requirements"
+      ],
+      "source": {
+        "n": "Bloomberg, via Yahoo Finance",
+        "u": "https://finance.yahoo.com/markets/crypto/articles/okx-files-sec-launch-tokenized-013113732.html"
+      },
+      "links": [
+        {
+          "t": "Bloomberg",
+          "u": "https://www.bloomberg.com/news/articles/2026-10-05/okx-files-with-sec-to-launch-tokenized-us-stock-trading-platform"
+        }
+      ],
+      "record": "Learn › The Mechanism › Conditional transfers",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-01-001",
+      "date": "2026-10-01",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Markets",
+      "tier": "",
+      "head": "Two aggregators, two totals: $46.2B at Token Terminal, $38.61B at RWA.xyz",
+      "fact": "Token Terminal put tokenized real-world assets at about $46.2B across 35 to 36 networks in late September, excluding stablecoins. RWA.xyz showed $38.61B across 39 networks on October 1. The gap reflects methodology, including how distributed assets and cross-chain representations are counted.",
+      "num": "$7.6B",
+      "numLabel": "gap between the two totals",
+      "mech": "permissioning",
+      "mechanism": "Whether a token can move off the issuing platform decides which total it lands in.",
+      "implication": "Quote the aggregator and its definition together. The desk’s headline stays RWA.xyz distributed value.",
+      "evidence": [
+        "Token Terminal: Ethereum about $22.2B (48%), BNB Chain $5.5B, Stellar and zkSync Era $3.3B each, Solana $3.0B",
+        "Categories: U.S. Treasury bills about $13.9B, active yield strategies $10.7B, credit funds $6.5B; tokenized stocks added about $592M in 30 days",
+        "Only about 7% to 12% of tokenized assets are used in DeFi",
+        "McKinsey projects about $2T by 2030, a forecast and not a guarantee"
+      ],
+      "source": {
+        "n": "Crypto Briefing",
+        "u": "https://cryptobriefing.com/tokenized-real-world-assets-hit-46-billion/"
+      },
+      "links": [],
+      "record": "Metrics › Reconciliation",
+      "xUrl": ""
+    }
+  ]
+}
