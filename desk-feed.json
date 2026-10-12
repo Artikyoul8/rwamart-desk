@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "updated": "2026-10-09T00:00:00-04:00",
+  "updated": "2026-10-12T00:18:45-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-12-001",
+      "date": "2026-10-12",
+      "fr": "datadesk",
+      "lv": 1,
+      "topic": "Data",
+      "tier": "",
+      "head": "Report: Stellar now hosts more tokenized assets than the XRP Ledger, at $3.5B vs $2.5B",
+      "fact": "24/7 Wall St. reported on Oct 11 that Stellar holds about $3.5B in tokenized real-world assets versus $2.5B on the XRP Ledger, with Solana near $3B.",
+      "num": "$3.5B",
+      "numLabel": "Tokenized assets on Stellar, per 24/7 Wall St.",
+      "mech": "",
+      "mechanism": "Chain-level RWA totals depend on the aggregator and on what counts as a tokenized asset, so rankings can differ between data providers.",
+      "implication": "Single secondary source; the article names no data provider or as-of date, so the figures and their basis are unverified.",
+      "evidence": [
+        "24/7 Wall St. puts Stellar at $3.5B and the XRP Ledger at $2.5B in tokenized assets.",
+        "The article cites Solana at $3B and Avalanche at $1.7B.",
+        "It does not name its data source or give an as-of date for the totals."
+      ],
+      "source": {
+        "n": "24/7 Wall St.",
+        "u": "https://247wallst.com/investing/cryptocurrency/2026/10/11/stellar-now-hosts-more-tokenized-assets-than-the-xrp-ledger-why-is-xrp-still-worth-nearly-13-times-more"
+      },
+      "links": [],
+      "record": "Wire only (Signal)",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-09-001",
       "date": "2026-10-09",
