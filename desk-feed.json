@@ -1,7 +1,34 @@
 {
   "schema": 1,
-  "updated": "2026-10-13T00:17:59-04:00",
+  "updated": "2026-10-13T00:21:59-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-13-002",
+      "date": "2026-10-13",
+      "fr": "datadesk",
+      "lv": 1,
+      "topic": "Stablecoins",
+      "tier": "",
+      "head": "TRON DAO reports $93.88B of USDT and USDD supply on TRON and $2.21T settled in Q3",
+      "fact": "TRON DAO's State of TRON Q3 2026 report, published 12 October, says stablecoin settlement on the network reached $2.21T in Q3, with USDT and USDD supply at $93.88B, up 5.5% from Q2.",
+      "num": "$93.88B",
+      "numLabel": "USDT and USDD supply on TRON, Q3 2026 (TRON DAO)",
+      "mech": "",
+      "mechanism": "Stablecoin supply and settlement volume show how much dollar-denominated value moves on a chain, which is the cash leg that tokenized assets settle against.",
+      "implication": "The figures are the issuer-network's own and unaudited here; read them as a signal of stablecoin activity, not an independent measure.",
+      "evidence": [
+        "Average daily settlement volume rose 3.9% from Q2 to $24.05B, per the TRON DAO report as carried by NewsBTC.",
+        "TVL was $28.21B including staking and $13.05B excluding it (TRON DAO).",
+        "The piece is a TRON DAO press release distributed via BlockmanPR; the figures are not independently verified."
+      ],
+      "source": {
+        "n": "NewsBTC (TRON DAO press release)",
+        "u": "https://newsbtc.com/news/state-of-tron-q3-2026-report-highlights-2-21-trillion-in-stablecoin-settlement-amid-network-activity-growth"
+      },
+      "links": [],
+      "record": "Wire only (Signal)",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-13-001",
       "date": "2026-10-13",
