@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-10-12T00:18:45-04:00",
+  "updated": "2026-10-13T00:17:59-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-13-001",
+      "date": "2026-10-13",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "",
+      "head": "Morgan Stanley now eyes Q1 2027 to support tokenized equities, after earlier H2 2026 target",
+      "fact": "Morgan Stanley's head of digital asset strategy, Amy Oldenburg, told The Block at Token2049 that support for tokenized equities on its trading system is now expected in Q1 2027; in March she pointed to the second half of 2026.",
+      "num": "Q1 2027",
+      "numLabel": "New target to support tokenized equities at Morgan Stanley",
+      "mech": "conditional",
+      "mechanism": "A bank can only support trading in tokenized shares once issuers have put suitable securities onchain. Oldenburg tied the delay to thin product supply and to open items such as DTCC's tokenization service, due at the end of October.",
+      "implication": "A large US bank is pushing back a timeline because tokenized product supply and market plumbing are not yet in place; adoption looks gated by infrastructure.",
+      "evidence": [
+        "Oldenburg said client demand is limited because the product does not yet exist (The Block).",
+        "She cited DTCC's tokenization service launch at the end of October 2026 as a milestone the firm is watching (The Block).",
+        "She said the Clarity Act not passing is a factor, as is Federal Reserve permissibility (The Block).",
+        "crypto.news adds that she expects tokenized RWAs within a $3T-$10T range by 2030; this is her view, not a desk forecast."
+      ],
+      "source": {
+        "n": "The Block",
+        "u": "https://theblock.co/news/markets/2026-10-12-morgan-stanley-tokenized-equities-q1-2027-418256"
+      },
+      "links": [
+        {
+          "t": "crypto.news: Morgan Stanley sees tokenized assets at $3T-$10T by 2030",
+          "u": "https://crypto.news/morgan-stanley-sees-tokenized-assets-at-3t-10t-by-2030/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-12-001",
       "date": "2026-10-12",
