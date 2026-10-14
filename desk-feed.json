@@ -1,7 +1,64 @@
 {
   "schema": 1,
-  "updated": "2026-10-13T00:21:59-04:00",
+  "updated": "2026-10-14T00:47:25-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-14-001",
+      "date": "2026-10-14",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "BNY Institute: Treasury settlement should run around the clock, with 24/7 clearing targeted for 2027",
+      "fact": "On October 13 BNY Institute published a paper arguing that Treasury settlement, funding and collateral must move toward always-on operation. BNY says it will extend settlement hours later in 2026 and target 24/7 clearing for traditional and tokenized Treasuries in 2027.",
+      "num": "$239B",
+      "numLabel": "Treasury activity unsettled at the end of each day, per BNY",
+      "mech": "conditional",
+      "mechanism": "Tokenized securities, cash and collateral can carry rules inside settlement, so a collateral transfer can trigger automatically against a margin requirement or a financing leg. BNY adds that this still needs funding, collateral and balance sheet capacity.",
+      "implication": "A major custodian is placing tokenized Treasuries as a second rail inside Treasury settlement, alongside longer hours on existing systems.",
+      "evidence": [
+        "Treasury venues can be open up to 22 hours a day, while about $239B of activity stays unsettled at each day's end",
+        "Roadmap: longer settlement hours for Fed-eligible assets later in 2026, then European and Asian hours in 2027",
+        "2027 targets include 24/7 bilateral and triparty financing across traditional and tokenized assets",
+        "Digital cash options named: tokenized money market funds, tokenized deposits and stablecoins"
+      ],
+      "source": {
+        "n": "BNY Institute",
+        "u": "https://www.bny.com/corporate/global/en/institute/next-us-treasury-market-evolution.html"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-14-002",
+      "date": "2026-10-14",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Derivnex completes first OTC total return swap on Canton, between DRW and Marex",
+      "fact": "On October 13 Derivnex and Canton Network announced a total return swap between DRW and Marex Solutions referencing the iBoxx USD Liquid Investment Grade Index, tokenized by Kaiko. The release calls it the first OTC derivative on a fully tokenized index; that is the companies' own claim.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "The trade's terms sit in a smart contract on Canton that both counterparties share, so valuations and other lifecycle events update one synchronized record instead of two reconciled ones. The reference index is itself a token, valued from official index data supplied by Kaiko.",
+      "implication": "Tokenization is extending from cash assets to derivative contracts and benchmark data, with collateral integration named as the next step.",
+      "evidence": [
+        "Swap provider is Marex Solutions; counterparty is DRW",
+        "Kaiko distributed S&P Dow Jones Indices official index values used to value the position",
+        "Derivnex uses the Common Domain Model, a standard supported by ISDA",
+        "Next: equity and index derivatives, then digital cash and collateral on Canton"
+      ],
+      "source": {
+        "n": "Canton Network via PR Newswire",
+        "u": "https://www.prnewswire.com/news-releases/derivnex-launches-industry-first-otc-swap-on-canton-with-drw-and-marex-302906256.html"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-13-002",
       "date": "2026-10-13",
