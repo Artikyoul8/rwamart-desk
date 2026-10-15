@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-14T00:47:25-04:00",
+  "updated": "2026-10-15T00:48:22-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-15-001",
+      "date": "2026-10-15",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "BNY and Citadel Securities use a tokenized Treasury as collateral in a triparty repo",
+      "fact": "BNY said it completed a tokenized U.S. Treasury triparty repo with Citadel Securities, announced October 13. Citadel bought a 2-year Treasury note on Tradeweb, and BNY recorded a tokenized version that settled within minutes instead of the standard T+1.",
+      "num": "T+1",
+      "numLabel": "standard settlement cycle; the tokenized note settled within minutes",
+      "mech": "",
+      "mechanism": "BNY recorded a token of the Treasury note on its private digital ledger, then Citadel pledged it as collateral for an overnight loan of cash from BNY. The same asset moved from purchase to financing without waiting for the usual next-day settlement.",
+      "implication": "The test moves tokenization from issuance toward collateral use, where faster settlement frees cash. BNY says digital cash and tokenized deposits are next.",
+      "evidence": [
+        "Citadel then used the token as overnight collateral and received cash from BNY",
+        "BNY calls it the first use of tokenized assets on a major triparty repo platform; the release does not name the platform",
+        "BNY did not disclose the trade size or repo rate",
+        "BNY plans digital cash and tokenized deposit tools, and longer settlement hours covering Europe and Asia next year"
+      ],
+      "source": {
+        "n": "BNY",
+        "u": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/bny-completes-tokenized-us-treasury-triparty-repo-workflow-with-citadel-securities.html"
+      },
+      "links": [
+        {
+          "t": "The Block: adds context on BNY's January tokenized deposit service",
+          "u": "https://www.theblock.co/news/business/2026-10-14-bny-citadel-securities-complete-treasury-repo-in-first-use-of-tokenized-assets-on-major-triparty-platform-418534"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-15-002",
+      "date": "2026-10-15",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "Federated Hermes and Prometheum plan tokenized funds for brokerage accounts, first in Q1 2027",
+      "fact": "On October 13 Federated Hermes and Prometheum announced a partnership to issue and distribute tokenized securities funds through Prometheum’s SEC-registered, FINRA-member broker-dealer infrastructure. They expect the first tokenized fund in Q1 2027.",
+      "num": "Q1 2027",
+      "numLabel": "expected timing of the first tokenized fund",
+      "mech": "",
+      "mechanism": "Prometheum’s broker-dealer arms would custody, clear and settle the tokenized fund shares and offer them to introducing broker-dealers through a correspondent clearing platform. The aim is to reach standard brokerage accounts rather than crypto-native platforms.",
+      "implication": "Distribution through ordinary brokerage channels is a different route from crypto-native platforms, but no fund, chain or eligibility terms are set yet.",
+      "evidence": [
+        "Federated Hermes reported $911.6B in assets under management as of June 30, 2026",
+        "ProFinancial, a Prometheum unit, supports distribution",
+        "The release gives no fund name, blockchain, size or investor eligibility",
+        "Ledger Insights reports the first products are expected to be tokenized money market funds"
+      ],
+      "source": {
+        "n": "Business Wire (Prometheum and Federated Hermes release)",
+        "u": "https://finviz.com/news/401708/prometheum-and-federated-hermes-announce-strategic-partnership-to-issue-tokenized-securities-funds"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: adds context on Federated’s other tokenized fund access",
+          "u": "https://www.ledgerinsights.com/federated-hermes-partners-prometheum-to-distribute-tokenized-funds-via-mainstream-brokers/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-14-001",
       "date": "2026-10-14",
