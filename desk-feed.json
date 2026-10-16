@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T00:48:22-04:00",
+  "updated": "2026-10-16T00:48:32-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-16-001",
+      "date": "2026-10-16",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Perpetuals.com files notice for a tokenized-stock venue under the SEC innovation exemption",
+      "fact": "On October 14 Kephas Corporation, a Perpetuals.com subsidiary, published a notice for a Tokenized Securities Venue that relies on the SEC’s September 17 innovation exemption. The venue has not started trading and the notice gives no start date.",
+      "num": "5-year",
+      "numLabel": "term of the SEC innovation exemption the venue relies on",
+      "mech": "permissioning",
+      "mechanism": "Trading would run through permissioned automated market maker pools on Kronos X Public, an Ethereum-compatible layer-2 network, each pairing a tokenized stock with a form of USDC. Smart contracts set prices instead of an order book.",
+      "implication": "Alongside the OKXICE filing, the SEC’s exemption is moving from rule text to venue notices, with tokenized stocks trading on public blockchains the next test.",
+      "evidence": [
+        "The notice cites SEC Release No. 34-106402 and says the venue is not registered with the SEC for activities under the exemption",
+        "The SEC order requires trading in a tokenized stock to halt when the underlying stock halts on its primary exchange",
+        "The SEC order requires smart contracts to be auditable, public and deployed on a public, permissionless blockchain",
+        "CoinDesk reports trading could begin in mid-November at the earliest"
+      ],
+      "source": {
+        "n": "Perpetuals.com (Tokenized Securities Venue notice)",
+        "u": "https://tsv.perpetuals.com/"
+      },
+      "links": [
+        {
+          "t": "SEC: innovation exemption order for tokenized NMS stock",
+          "u": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+        },
+        {
+          "t": "CoinDesk: venue plans, timing and company background",
+          "u": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-15-001",
       "date": "2026-10-15",
