@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T00:48:32-04:00",
+  "updated": "2026-10-17T00:48:51-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-17-001",
+      "date": "2026-10-17",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Markets",
+      "tier": "B",
+      "head": "Ripple Prime opens 24/7 swaps on 100+ stock, metal and currency markets, with Virtu trading",
+      "fact": "On October 15 Ripple Prime launched swaps for institutional clients that track more than 100 markets across equities, indices, ETFs, metals, energy and currencies. Each swap references a perpetual futures contract that Trade.xyz lists on Hyperliquid, and Virtu is already trading them.",
+      "num": "100+",
+      "numLabel": "reference markets covered by the swaps",
+      "mech": "",
+      "mechanism": "Ripple Prime takes the other side of each swap as principal, so clients never trade on Hyperliquid directly. Positions sit in one prime account, can be cross-margined with other assets, and can be collateralized with Ripple’s RLUSD stablecoin where available.",
+      "implication": "Onchain perpetual markets are now reachable through a regulated-style prime broker, extending round-the-clock price exposure to traditional assets without tokenizing the assets themselves.",
+      "evidence": [
+        "Trading and settlement run 24/7, including weekends",
+        "Offered under Ripple Prime’s Credit Intermediation Vehicle (CIV) license in the British Virgin Islands; other regions planned, no dates given",
+        "RLUSD collateral availability may vary by jurisdiction",
+        "Clients gain price exposure only, not ownership of the referenced assets"
+      ],
+      "source": {
+        "n": "The Block",
+        "u": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+      },
+      "links": [
+        {
+          "t": "Unchained: swap structure, margin and licensing details",
+          "u": "https://unchainedcrypto.com/ripple-prime-opens-24-7-swaps-on-stocks-metals-and-currencies-with-virtu-already-trading/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-17-002",
+      "date": "2026-10-17",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "EBA classifies USDC as the first significant e-money token under MiCA",
+      "fact": "On October 14 the European Banking Authority classified Circle’s USDC as a significant e-money token, the first of 45 notified in the EU. From November 12 the EBA takes over supervision of its reserves, own funds and liquidity from France’s ACPR.",
+      "num": "45",
+      "numLabel": "EU e-money tokens notified under MiCA; USDC is first significant",
+      "mech": "compliance",
+      "mechanism": "Under the EU’s MiCA rules, a significant token falls under dual supervision: the EBA covers own funds, reserve assets, liquidity and recovery and redemption plans, while the national regulator keeps governance and related areas.",
+      "implication": "Stablecoins used as settlement cash for tokenized assets are gaining a single EU-level prudential supervisor, which sets a reference point for reserve and liquidity oversight.",
+      "evidence": [
+        "EBA keeps reassessing significance each year",
+        "ACPR retains governance, qualifying holdings, fit-and-proper checks, outsourcing and conflicts of interest",
+        "EBA signed a memorandum of understanding with the New York State Department of Financial Services on cross-border stablecoin oversight"
+      ],
+      "source": {
+        "n": "European Banking Authority",
+        "u": "https://eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: what the classification means for Circle’s reserves",
+          "u": "https://www.ledgerinsights.com/eu-banking-regulator-classifies-usdc-as-significant-stablecoin/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-16-001",
       "date": "2026-10-16",
