@@ -1,7 +1,115 @@
 {
   "schema": 1,
-  "updated": "2026-10-17T00:48:51-04:00",
+  "updated": "2026-10-18T00:44:29-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-18-001",
+      "date": "2026-10-18",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Markets",
+      "tier": "A",
+      "head": "Nine companies object to OKXICE tokenizing their shares under the SEC exemption",
+      "fact": "OKXICE's October 15 public notice lists nine issuers that have objected to trading of their tokenized stock on its venue, including Broadcom, CoreWeave, Verizon and UnitedHealth. The notice gives no reasons.",
+      "num": "9",
+      "numLabel": "issuers that had objected to OKXICE as of its October 15 notice",
+      "mech": "permissioning",
+      "mechanism": "Under the SEC's September 17 exemption, a venue must notify the issuer of a stock tokenized by an unaffiliated third party and give it a chance to object before trading. OKXICE runs permissioned Uniswap v4 pools on X Layer, open only to wallets holding a soulbound token it issues.",
+      "implication": "Issuers can now say no to a specific venue, which makes company consent a practical limit on third-party tokenized equities.",
+      "evidence": [
+        "Eight of the nine were among the 63 tickers OKXICE named on October 4; Cerebras was not, per The Block",
+        "Per The Block, Applied Optoelectronics told the Wall Street Journal it was unsure how tokenization would affect its price, liquidity and volatility",
+        "OKXICE is owned 50/50 by Intercontinental Exchange and OKX's U.S. holding company; the notice says it does not issue or tokenize the stocks traded",
+        "The notice gives no launch date"
+      ],
+      "source": {
+        "n": "OKXICE TSV public notice",
+        "u": "https://www.okx.com/cdn/assets/files/2610/F085D8D65135AB9C.pdf"
+      },
+      "links": [
+        {
+          "t": "The Block: names the nine objectors and the 30-day objection mechanics",
+          "u": "https://www.theblock.co/news/markets/2026-10-17-coreweave-broadcom-verizon-among-nine-companies-objecting-to-tokenized-trading-of-their-shares-on-okxice-418859"
+        },
+        {
+          "t": "SEC: innovation exemption order for tokenized NMS stock",
+          "u": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-18-002",
+      "date": "2026-10-18",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "Iberdrola, BBVA and Santander run a €150M syndicated loan entirely on a shared ledger",
+      "fact": "On October 15, BBVA and Santander announced a €150 million syndicated loan for Iberdrola whose full lifecycle, from disbursement to maturity, is administered on a distributed ledger platform built by ioBuilders. The banks describe it as the first live loan managed this way.",
+      "num": "€150M",
+      "numLabel": "syndicated facility administered end to end on the ledger",
+      "mech": "",
+      "mechanism": "Interest notices, principal and fee payments, covenant monitoring, consents and transfers of loan participations are recorded on the shared ledger and visible in real time to authorized participants. This replaces reconciliation between each bank's separate databases.",
+      "implication": "Loan administration, long manual, becomes a test of shared-ledger records; the release does not say whether the network is public or permissioned.",
+      "evidence": [
+        "Platform developed by ioBuilders with BBVA and Santander; Gómez-Acebo & Pombo advised on legal terms",
+        "An appointed agent bank keeps operational control, per BBVA",
+        "The banks plan to onboard more participants and add features",
+        "Maturity and use of proceeds were not disclosed"
+      ],
+      "source": {
+        "n": "Santander",
+        "u": "https://www.santander.com/en/press-room/press-releases/2026/10/iberdrola-bbva-and-santander-deliver-the-first-syndicated-financing-managed-entirely-on-blockchain"
+      },
+      "links": [
+        {
+          "t": "BBVA: same announcement, with claimed benefits",
+          "u": "https://www.bbva.com/en/enterprises/iberdrola-bbva-and-santander-deliver-the-first-syndicated-financing-managed-entirely-on-blockchain/"
+        },
+        {
+          "t": "Ledger Insights: context on earlier syndicated-loan platforms",
+          "u": "https://www.ledgerinsights.com/bbva-santander-launch-syndicated-loan-platform-to-runs-full-lifecycle-on-blockchain/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-18-003",
+      "date": "2026-10-18",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "B",
+      "head": "Brazil's CVM opens a simulated pilot to test tokenized securities on DLT networks",
+      "fact": "Brazil's securities regulator CVM published Resolution 249 on October 14, creating a pilot to test the full securities lifecycle on distributed ledger networks. Trials use test tokens and fictitious data, with no real investors or assets.",
+      "num": "60 days",
+      "numLabel": "test period, extendable by 30 days",
+      "mech": "",
+      "mechanism": "Industry associations and self-regulatory bodies in CVM's Tokenization Working Group propose test networks. Inside them CVM can suspend rules on offering registration, custody and settlement, and reads each network in real time through an access node.",
+      "implication": "A regulator-run sandbox lets market infrastructure trial tokenization before any rule change, with participants' final reports meant to suggest legal changes.",
+      "evidence": [
+        "Network proposals are due within 15 business days of publication",
+        "Eligible assets include shares, debentures, receivables certificates and fund quotas, per Capital Aberto",
+        "Private and permissioned public networks are both allowed",
+        "Per Ledger Insights, CVM Chair Otto Lobo said the pilot will help weigh tokenization's opportunities and risks"
+      ],
+      "source": {
+        "n": "Ledger Insights",
+        "u": "https://www.ledgerinsights.com/brazil-launches-simulated-tokenization-pilots-for-capital-markets/"
+      },
+      "links": [
+        {
+          "t": "Capital Aberto: Resolution 249 scope, participants and reporting",
+          "u": "https://capitalaberto.com.br/regulacao/2026/10/cvm-cria-piloto-para-testar-o-ciclo-completo-da-tokenizacao"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-17-001",
       "date": "2026-10-17",
