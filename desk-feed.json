@@ -1,7 +1,68 @@
 {
   "schema": 1,
-  "updated": "2026-10-18T00:44:29-04:00",
+  "updated": "2026-10-19T00:44:49-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-19-001",
+      "date": "2026-10-19",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "First Abu Dhabi Bank settles an AED 1B digital green bond on Euroclear's D-FMI",
+      "fact": "First Abu Dhabi Bank priced a three-year AED 1 billion (about $272M) digitally native green bond on October 13 and settled it on October 15 through Euroclear's D-FMI platform. The notes pay a 5.75% coupon and mature on October 15, 2029.",
+      "num": "AED 1 billion",
+      "numLabel": "size of the three-year digitally native green notes",
+      "mech": "",
+      "mechanism": "The notes are issued, distributed and settled on Euroclear's Digital Financial Market Infrastructure, which uses distributed ledger technology and connects to existing secondary-market services. The notes are expected to list on the Abu Dhabi Securities Exchange.",
+      "implication": "A bank issuer moved a listed bond's issuance and settlement onto a ledger while keeping familiar market plumbing, a pattern now repeating on D-FMI.",
+      "evidence": [
+        "FAB calls it the first digital green bond from the MENA region",
+        "FAB and Standard Chartered structured the notes; Citibank N.A., London Branch is fiscal and digitally native notes agent",
+        "Ledger Insights counts at least the fourth digital bond by a MENAT bank on D-FMI in a year",
+        "FAB's first digital bond, about $100M, used HSBC's Orion platform in July 2025"
+      ],
+      "source": {
+        "n": "First Abu Dhabi Bank",
+        "u": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-issues-menas-first-digital-green-bond-on-euroclear-d-fmi"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: D-FMI issuance count and USD equivalent",
+          "u": "https://www.ledgerinsights.com/fab-issues-digital-bond-via-euroclear/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-19-002",
+      "date": "2026-10-19",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Data",
+      "tier": "A",
+      "head": "RWA.xyz shows $39.23B of distributed tokenized assets, up 1.21% in 30 days",
+      "fact": "RWA.xyz's dashboard, checked on October 19, listed $39.23B in distributed asset value, up 1.21% from 30 days earlier. Total asset holders reached 5,309,446, up 15.31% over the same period.",
+      "num": "$39.23B",
+      "numLabel": "distributed asset value on RWA.xyz, checked October 19",
+      "mech": "",
+      "mechanism": "RWA.xyz separates distributed assets, which are issued and transferable onchain, from represented assets, which are recorded onchain but held off the chain's own rails.",
+      "implication": "Holder counts grew about 15% in 30 days while distributed value rose about 1%, so recent growth is in participants more than in dollars.",
+      "evidence": [
+        "Represented asset value: $367.74B, down 0.20% in 30 days",
+        "Total stablecoin value: $291.34B, down 0.60% in 30 days",
+        "Total stablecoin holders: 298.75M, up 2.99% in 30 days"
+      ],
+      "source": {
+        "n": "RWA.xyz",
+        "u": "https://app.rwa.xyz/"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-18-001",
       "date": "2026-10-18",
