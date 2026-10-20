@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-10-19T00:44:49-04:00",
+  "updated": "2026-10-20T00:44:45-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-20-001",
+      "date": "2026-10-20",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "J.P. Morgan's JPM Coin deposit token goes live on Ethereum mainnet",
+      "fact": "On October 19 Kinexys, J.P. Morgan's blockchain unit, made its USD deposit token JPM Coin (JPMD) available on Ethereum, a Layer 1 network. The token had been live on Base, an Ethereum Layer 2, since November 2025.",
+      "num": "$4T",
+      "numLabel": "cumulative Kinexys transactions (bank's internal data, all services)",
+      "mech": "whitelist",
+      "mechanism": "JPMD is a token representing a claim on U.S. dollar deposits at J.P. Morgan, not a reserve-backed stablecoin. It is available to the bank's institutional clients, who can transfer it peer to peer across Ethereum and Base.",
+      "implication": "A bank deposit token now sits on the same chain as tokenized funds, giving institutions a bank-issued cash leg for onchain settlement and collateral.",
+      "evidence": [
+        "Available to J.P. Morgan institutional clients on Ethereum and Base",
+        "J.P. Morgan Asset Management also launched tokenized money market funds on Ethereum earlier in 2026",
+        "Kinexys reports over $4T cumulative transactions and $7B average daily volume, covering all its services, not JPMD alone",
+        "Ledger Insights notes the announcement does not state JPMD issuance or client numbers"
+      ],
+      "source": {
+        "n": "J.P. Morgan Kinexys",
+        "u": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-live-on-ethereum"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: why Ethereum matters for tokenized fund collateral",
+          "u": "https://www.ledgerinsights.com/jpm-coin-arrives-on-ethereum/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-19-001",
       "date": "2026-10-19",
