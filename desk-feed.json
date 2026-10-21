@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "updated": "2026-10-20T00:44:45-04:00",
+  "updated": "2026-10-21T00:44:26-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-21-001",
+      "date": "2026-10-21",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "B",
+      "head": "Bank Negara Malaysia launches SSDS+, a depository for tokenized bonds and sukuk",
+      "fact": "On October 20 Bank Negara Malaysia (BNM) launched SSDS+, an in-house platform to issue, record and safekeep tokenized bonds and sukuk (Islamic bonds). It extends the Scripless Securities Depository System, the central depository for the wholesale market.",
+      "num": "24/7",
+      "numLabel": "settlement in central bank money via RENTAS+, linked to SSDS+",
+      "mech": "",
+      "mechanism": "SSDS+ keeps ownership and transfer records for tokenized securities on cloud and distributed ledger technology. The matching cash payment settles through RENTAS+, BNM's real-time gross settlement system, in central bank money.",
+      "implication": "A central bank now runs the ledger for tokenized government and retail bonds, with cash settling at any hour. No issuance on it has been reported yet.",
+      "evidence": [
+        "Built in-house by BNM on cloud and distributed ledger technology",
+        "Integrated with RENTAS+, the 24/7 interbank settlement system that launched in October 2025",
+        "Ready to support tokenized government and retail bonds, per Digital News Asia; neither it nor Fintech News Malaysia reports an issuance yet",
+        "BNM's governor said in a speech SSDS+ would soft launch on September 25"
+      ],
+      "source": {
+        "n": "Fintech News Malaysia",
+        "u": "https://fintechnews.my/61721/blockchain/bnm-ssds-tokenised-bonds-sukuk/"
+      },
+      "links": [
+        {
+          "t": "Digital News Asia: launch details and Malaysia bond market size",
+          "u": "https://www.digitalnewsasia.com/digital-economy/bnm-launches-tokenised-bond-and-sukuk-platform-ssds-malaysia-advances-digital-debt"
+        },
+        {
+          "t": "Ledger Insights: SSDS+ as BNM's common programmable platform",
+          "u": "https://www.ledgerinsights.com/malaysias-central-bank-launches-depository-for-tokenized-bonds-sukuk/"
+        },
+        {
+          "t": "BIS (BNM governor's speech): soft launch of SSDS+ on 25 September 2026",
+          "u": "https://www.bis.org/speeches/20260929-welcoming-address-30th-anniversary-fast"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-20-001",
       "date": "2026-10-20",
