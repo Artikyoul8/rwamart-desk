@@ -1,7 +1,57 @@
 {
   "schema": 1,
-  "updated": "2026-10-21T00:44:26-04:00",
+  "updated": "2026-10-22T00:44:44-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-22-001",
+      "date": "2026-10-22",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "OCC finalizes GENIUS Act stablecoin rule, easing proposed reserve liquidity and maturity limits",
+      "fact": "On October 21 the Office of the Comptroller of the Currency issued its final rule implementing the GENIUS Act for payment stablecoin issuers it supervises, effective January 18, 2027. It sets a 5% daily liquidity floor and drops the proposed weekly liquidity test and 20-day maturity cap.",
+      "num": "5%",
+      "numLabel": "minimum reserve share in demand deposits or Fed balances; was 10%",
+      "mech": "",
+      "mechanism": "Issuers must back each stablecoin with reserve assets of at least equal value, redeemable within two business days. The final rule now ties liquidity to a 5% cash-like floor and a 40% single-counterparty limit rather than a maturity cap.",
+      "implication": "Final reserve and redemption rules give bank and nonbank issuers a fixed US standard ahead of January 2027, which matters for stablecoins used as settlement cash for tokenized assets.",
+      "evidence": [
+        "Reserves of at least 5% in demand deposits, payable-on-demand share accounts or Federal Reserve balances, down from 10% proposed in February",
+        "Weekly liquidity requirement and the 20-day weighted average maturity limit are not in the final text; the 40% single-counterparty limit stays",
+        "Redemptions may not take longer than two business days after the request",
+        "Proposed presumption that affiliate or third-party payments breach the yield ban is dropped; the ban on issuer-paid yield remains"
+      ],
+      "source": {
+        "n": "OCC",
+        "u": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+      },
+      "links": [
+        {
+          "t": "OCC: Bulletin 2026-50, final rule and January 18, 2027 effective date",
+          "u": "https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html"
+        },
+        {
+          "t": "OCC: final rule text with liquidity, counterparty and redemption provisions",
+          "u": "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf"
+        },
+        {
+          "t": "Cointelegraph: scope, two-day redemption and yield-ban changes",
+          "u": "https://cointelegraph.com/news/occ-finalizes-genius-act-rules-stablecoin-issuers-custody"
+        },
+        {
+          "t": "Decrypt: scope, AML carve-out and application timing",
+          "u": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline"
+        },
+        {
+          "t": "Ledger Insights: reserve and concentration changes versus the proposal",
+          "u": "https://www.ledgerinsights.com/occ-relaxes-reserve-and-yield-rules-in-final-genius-act-stablecoin-regulations/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-21-001",
       "date": "2026-10-21",
