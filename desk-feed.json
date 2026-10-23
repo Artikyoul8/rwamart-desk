@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-22T00:44:44-04:00",
+  "updated": "2026-10-23T00:45:02-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-23-001",
+      "date": "2026-10-23",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "SoFi launches SOFIE, an FDIC-insured tokenized deposit paying 4.40% APY",
+      "fact": "On October 22 SoFi Bank announced SoFi Earn (SOFIE), which it calls the first national bank-issued tokenized deposit for consumers. Each token represents $1 on deposit and pays a variable 4.40% APY as of October 20.",
+      "num": "4.40%",
+      "numLabel": "variable APY on SOFIE as of October 20, 2026",
+      "mech": "",
+      "mechanism": "SOFIE is a bank deposit liability held through a SoFi Crypto account, not a payment stablecoin. Members can convert it 1:1 into SoFiUSD to buy crypto or send funds to external wallets around the clock.",
+      "implication": "A deposit that earns interest and still converts to a stablecoin on demand puts bank deposits and onchain dollars in one product.",
+      "evidence": [
+        "Insured up to $250,000 per depositor, per insured bank, per ownership category, under FDIC rules",
+        "SoFi says SoFiUSD and other SoFi Crypto assets are not FDIC insured",
+        "Rollout to SoFi Crypto members runs through November 2026",
+        "The announcement refers to blockchain rails but does not name a chain"
+      ],
+      "source": {
+        "n": "SoFi",
+        "u": "https://www.sofi.com/newsroom/sofi-launches-sofi-earn-sofie-the-first-and-only-national-bank-issued-tokenized-deposit-for-consumers/"
+      },
+      "links": [
+        {
+          "t": "The Block: confirms the rate, FDIC coverage and 1:1 SoFiUSD conversion",
+          "u": "https://theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-23-002",
+      "date": "2026-10-23",
+      "fr": "mechanism",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Boerse Stuttgart wins a DLT trading and settlement licence for its Seturion platform",
+      "fact": "On October 20 Boerse Stuttgart Group said BaFin granted it a DLT Trading and Settlement System licence under the EU DLT Pilot Regime, after a process with ESMA and the ECB. The group says it is the first European exchange group to hold one.",
+      "num": "€6B",
+      "numLabel": "current DLT Pilot Regime cap per infrastructure, per Ledger Insights",
+      "mech": "",
+      "mechanism": "Seturion lets banks, brokers and trading venues settle tokenized assets on public or private blockchains, against onchain money or central bank money. Venues connected to it can offer tokenized trading without their own DLT licence.",
+      "implication": "A licensed shared settlement layer lets more European firms offer tokenized trading without building their own, though the volume cap still limits scale.",
+      "evidence": [
+        "Partners named: flatexDEGIRO, Nasdaq, Societe Generale and SG FORGE",
+        "The group claims connected banks and brokers could cut costs by up to 90%; this is a company claim",
+        "Ledger Insights: Commission proposes raising the cap to €100B, finance ministers back €300B",
+        "No production launch date has been announced"
+      ],
+      "source": {
+        "n": "Boerse Stuttgart Group (via Mondo Visione)",
+        "u": "https://mondovisione.com/media-and-resources/news/boerse-stuttgart-group-obtains-dlt-tss-license-and-lays-regulatory-basis-for-set-20261020"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: licence context, volume caps and partners",
+          "u": "https://www.ledgerinsights.com/boerse-stuttgarts-seturion-gets-dlt-trading-and-settlement-license-as-eu-cap-debate-heats-up/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-22-001",
       "date": "2026-10-22",
