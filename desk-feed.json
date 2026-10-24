@@ -1,7 +1,72 @@
 {
   "schema": 1,
-  "updated": "2026-10-23T00:45:02-04:00",
+  "updated": "2026-10-24T00:44:33-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-24-001",
+      "date": "2026-10-24",
+      "fr": "tx",
+      "lv": 2,
+      "topic": "TX Network",
+      "tier": "B",
+      "head": "tx introduces USTX, a Brale-issued dollar stablecoin for tokenized-asset settlement",
+      "fact": "On October 20, Cointelegraph and Crypto Briefing reported that tx introduced USTX, a dollar stablecoin for its wallet and planned tokenized-stock marketplace. Fintech firm Brale issues it and manages the reserves; users mint it with USDC.",
+      "num": "$1",
+      "numLabel": "of reserve assets backing each USTX, per tx",
+      "mech": "",
+      "mechanism": "USTX is minted by depositing USDC and can be redeemed back into USDC. tx says reserves sit in cash, bank deposits, government money market funds and short-term U.S. Treasury bills, held through Brale.",
+      "implication": "A dedicated settlement stablecoin gives tokenized stocks and other assets on tx a native cash leg, separate from third-party stablecoins.",
+      "evidence": [
+        "Tx co-founder Ashley Ebersole said USTX is “not a USDC-backed wrapper or synthetic representation of USDC” (Cointelegraph)",
+        "Crypto Briefing reports monthly CPA attestations and an announcement date of September 23",
+        "Reports differ on launch status and network count (eight chains vs. four at launch), so neither figure is relied on here"
+      ],
+      "source": {
+        "n": "Cointelegraph",
+        "u": "https://cointelegraph.com/news/tx-ustx-stablecoin-rwa-liquidity-chain"
+      },
+      "links": [
+        {
+          "t": "Crypto Briefing: timeline, reserves and attestations",
+          "u": "https://cryptobriefing.com/tx-ustx-stablecoin-tokenized-asset-trading/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-24-002",
+      "date": "2026-10-24",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "B",
+      "head": "Generali Investments launches a tokenized share class of its €13B money market fund",
+      "fact": "On October 21 Generali Investments launched a natively tokenized share class of the Generali Money Market Fund, a Luxembourg fund managed by Generali Asset Management. For now only other Generali group companies can subscribe.",
+      "num": "€13B",
+      "numLabel": "assets in the Generali Money Market Fund, per Ledger Insights",
+      "mech": "",
+      "mechanism": "Fund units in the new class are recorded and managed on distributed ledger technology rather than in a traditional register. Neither report names the blockchain used.",
+      "implication": "Another European asset manager is putting money market fund units on ledger rails, a format also used for collateral and stablecoin reserves.",
+      "evidence": [
+        "Access is limited to Generali group companies, with wider availability planned gradually",
+        "COO Emiliano Di Giammatteo cited more efficient liquidity and collateral management",
+        "Ledger Insights lists Spiko, Franklin Templeton and Amundi as earlier tokenized money fund issuers"
+      ],
+      "source": {
+        "n": "Ledger Insights",
+        "u": "https://www.ledgerinsights.com/generali-launches-tokenized-share-class-of-its-money-market-fund/"
+      },
+      "links": [
+        {
+          "t": "Börsen-Zeitung: launch report and access limits",
+          "u": "https://www.boersen-zeitung.de/banken-finanzen/generali-legt-einen-ersten-tokenisierten-geldmarktfonds-auf"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-23-001",
       "date": "2026-10-23",
