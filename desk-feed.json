@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T00:44:33-04:00",
+  "updated": "2026-10-25T00:44:47-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-25-001",
+      "date": "2026-10-25",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "HSBC launches RedCoin, a licensed Hong Kong dollar stablecoin, on PayMe",
+      "fact": "On October 23 HSBC launched RedCoin (RCHKD), a Hong Kong dollar stablecoin, through its PayMe app. HSBC says more than 3.3 million PayMe users can activate a stablecoin wallet, with payments at more than 100,000 merchants.",
+      "num": "3.3M+",
+      "numLabel": "PayMe users able to activate a RedCoin wallet",
+      "mech": "compliance",
+      "mechanism": "RedCoin is issued by HSBC under a Hong Kong Monetary Authority (HKMA) stablecoin issuer licence, so holders are existing PayMe customers who have already passed the bank's identity checks. It is used for peer-to-peer transfers and merchant payments.",
+      "implication": "A licensed bank is putting a regulated stablecoin in front of retail users, with tokenized fund subscriptions planned as the next use.",
+      "evidence": [
+        "HSBC received its HKMA stablecoin issuer licence in April 2026",
+        "Wallet activation is phased over the coming days, per HSBC and The Block",
+        "Later in 2026: wallet in the HSBC HK mobile app and subscriptions to a planned tokenized HKD money market fund share class",
+        "HSBC says it plans to extend to wholesale corporate and institutional use cases"
+      ],
+      "source": {
+        "n": "HSBC",
+        "u": "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today"
+      },
+      "links": [
+        {
+          "t": "The Block: licensing context and Anchorpoint's HKDAP rollout",
+          "u": "https://www.theblock.co/news/business/2026-10-23-hsbc-hkd-stablecoin-redcoin-424018"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-25-002",
+      "date": "2026-10-25",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Malaysia and Thailand central banks join Singapore's BLOOM cross-border digital money initiative",
+      "fact": "On October 23 the Monetary Authority of Singapore said Bank Negara Malaysia and the Bank of Thailand joined its BLOOM initiative as policymaker members. Mastercard, Visa, Ripple and the World Bank Group are among the new industry participants.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "BLOOM is a public-private initiative to develop common approaches for using tokenized bank deposits and regulated stablecoins in cross-border payments, so institutions need fewer separate arrangements with each counterparty.",
+      "implication": "Central banks in three Southeast Asian markets are now working on shared rules for cross-border tokenized money.",
+      "evidence": [
+        "Work areas: acceptance and settlement across jurisdictions, interoperability, and programmable controls such as identity checks and sanctions screening",
+        "Other new participants include Airwallex, Maybank, Nium, ShopeePay and Monee",
+        "Existing participants include Circle, Coinbase, DBS, J.P. Morgan and Standard Chartered"
+      ],
+      "source": {
+        "n": "Monetary Authority of Singapore",
+        "u": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+      },
+      "links": [
+        {
+          "t": "The Block: coverage and BLOOM background",
+          "u": "https://www.theblock.co/news/regulation/2026-10-23-singapore-malaysia-and-thailand-central-banks-expand-cross-border-stablecoin-initiative-involving-ripple-visa-and-mastercard-426492"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-24-001",
       "date": "2026-10-24",
