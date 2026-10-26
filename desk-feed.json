@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-10-25T00:44:47-04:00",
+  "updated": "2026-10-26T00:44:52-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-26-001",
+      "date": "2026-10-26",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "OKXICE's notice now lists 22 issuer objections to tokenized trading of their shares",
+      "fact": "OKXICE's October 23 public notice lists 22 issuers that have filed objections to their stocks trading on its tokenized securities venue, including six newly named: Arm, Wells Fargo, Moderna, Cisco, Intuit and Marvell.",
+      "num": "22",
+      "numLabel": "issuers listed as objecting in OKXICE's October 23 notice",
+      "mech": "permissioning",
+      "mechanism": "OKXICE runs permissioned Uniswap v4 liquidity pools on XLayer, where only wallets holding a venue-issued soulbound token can trade tokenized U.S. stocks against stablecoins. Under the SEC exemption, an issuer objection within the notice window stops the venue from offering that company's tokenized shares.",
+      "implication": "Issuer consent is working as a live gate for third-party tokenized equities: under this exemption, companies, not venues, decide whether their shares trade onchain.",
+      "evidence": [
+        "Notice dated October 23 names Arm, Wells Fargo, Moderna, Cisco, Intuit and Marvell among the 22",
+        "Earlier objectors on the list include Microsoft, Alphabet, Goldman Sachs and McDonald's",
+        "OKXICE LLC is owned 50% by Intercontinental Exchange and 50% by OKX's U.S. affiliate",
+        "Co-chair Andrew Cuomo called the framework \"a sandbox\", CoinDesk reports"
+      ],
+      "source": {
+        "n": "OKXICE TSV public notice",
+        "u": "https://www.okx.com/cdn/assets/okfe/web3-activities/okxicetsv/notices/OKXICE_Tokenized_Securities_Venue_Public_Notice_26.10.23.pdf"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: names of the six new objectors and Cuomo's comments",
+          "u": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-25-001",
       "date": "2026-10-25",
