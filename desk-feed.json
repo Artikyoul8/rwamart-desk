@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-10-26T00:44:52-04:00",
+  "updated": "2026-10-27T00:44:49-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-27-001",
+      "date": "2026-10-27",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Canada publishes draft stablecoin regulations with a holding-yield ban and 1:1 redemption",
+      "fact": "On October 24 the Department of Finance published proposed Stablecoin Regulations in the Canada Gazette, with comments due within 60 days. Issuers would register with the Bank of Canada and could not pay yield tied to holding a stablecoin.",
+      "num": "60 days",
+      "numLabel": "comment period; rules intended to take effect in fall 2027",
+      "mech": "compliance",
+      "mechanism": "Non-bank issuers must hold reserves at least equal to outstanding coins in a Canadian custodian and redeem one-to-one within three business days. Rewards tied to use rather than holding stay permitted.",
+      "implication": "Canada is setting a licensing, reserve and redemption standard for stablecoins before launch, with a holding-yield rule stricter than issuer-only bans elsewhere.",
+      "evidence": [
+        "Reserves limited to listed high-quality liquid assets; redemption fees capped at 1%",
+        "Monthly reports with an accountant's opinion; penalties up to $10,000,000 for very serious violations",
+        "Wallet providers holding users' private keys would fall under payments regulation via a separate order",
+        "Finance estimates about 5 issuers and about 30 new payment service providers in scope"
+      ],
+      "source": {
+        "n": "Canada Gazette, Part I (Department of Finance)",
+        "u": "https://gazette.gc.ca/rp-pr/p1/2026/2026-10-24/html/reg1-eng.html"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: comparison with the US GENIUS Act on exchange yield",
+          "u": "https://www.ledgerinsights.com/canada-publishes-stablecoin-rules-with-yield-ban-that-applies-to-exchanges/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-26-001",
       "date": "2026-10-26",
