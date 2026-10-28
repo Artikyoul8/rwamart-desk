@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-10-27T00:44:49-04:00",
+  "updated": "2026-10-28T00:58:00-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-28-001",
+      "date": "2026-10-28",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "ESM issues a €1B digital bond that settles in central bank money on the Eurosystem's Pontes",
+      "fact": "On October 26 the European Stability Mechanism (ESM) announced a €1 billion benchmark bond, which Clearstream calls the first digital bond from a European supranational issuer. It settles on Pontes, the Eurosystem platform that links distributed-ledger (DLT) transactions to central bank money.",
+      "num": "€1B",
+      "numLabel": "ESM benchmark digital bond settled on Pontes",
+      "mech": "distribution",
+      "mechanism": "Clearstream creates and manages the bond in digital form on its D7 platform, and the cash leg settles in TARGET (T2) in central bank money. The bond can later move to traditional infrastructure and settle through T2S.",
+      "implication": "A supranational issuer has used central bank money for a DLT bond, and collateral eligibility is expected, which tests whether digital issuance can fit existing market plumbing.",
+      "evidence": [
+        "Clearstream is Pontes Market DLT Operator; the Bundesbank is issuing and paying agent; DZ BANK and Société Générale are advisory banks",
+        "Pontes launched September 21, 2026, per Clearstream",
+        "Expected: Luxembourg Stock Exchange listing and eligibility as Eurosystem and Eurex Clearing collateral",
+        "Delano and Ledger Insights report a 3.375% coupon and an April 8, 2030 maturity"
+      ],
+      "source": {
+        "n": "Clearstream",
+        "u": "https://www.clearstream.com/clearstream-en/newsroom/261026-5660778"
+      },
+      "links": [
+        {
+          "t": "Delano: terms finalized October 26, coupon and maturity",
+          "u": "https://delano.lu/article/the-esm-borrows-eu1bn-via-digital-finance-platforms"
+        },
+        {
+          "t": "Ledger Insights: Pontes trigger path and T+5 settlement",
+          "u": "https://www.ledgerinsights.com/european-stability-mechanism-issues-e1-billion-digital-bond-settled-via-pontes/"
+        },
+        {
+          "t": "Finadium: roles and collateral features",
+          "u": "https://finadium.com/european-supranational-esm-settles-e1bn-dlt-bond-on-pontes/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-28-002",
+      "date": "2026-10-28",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "B",
+      "head": "Janus Henderson and Centrifuge launch JQQQ, a Nasdaq-100 fund issued onchain on Stellar",
+      "fact": "On October 27 Janus Henderson and Centrifuge launched JQQQ, an issuer-sponsored fund tracking the Nasdaq-100 on the Stellar blockchain under a Nasdaq index license. CoinDesk and Cointelegraph report it is aimed at non-US professional investors.",
+      "num": "$100,000",
+      "numLabel": "reported minimum investment, per Cointelegraph citing the WSJ",
+      "mech": "whitelist",
+      "mechanism": "The fund is a segregated portfolio of a British Virgin Islands company and gives indirect exposure to the index, not ownership of the underlying stocks. Access is limited to eligible investors.",
+      "implication": "Issuer-sponsored index funds give onchain holders a regulated fund claim, which differs from third-party stock tokens that may carry no shareholder rights.",
+      "evidence": [
+        "Centrifuge provides the blockchain infrastructure; Nasdaq licenses the Nasdaq-100 index",
+        "Janus Henderson says its onchain strategies now exceed $1B",
+        "Cointelegraph cites RWA.xyz: Stellar holds about $3.8B of tokenized assets, fourth by distributed value"
+      ],
+      "source": {
+        "n": "CoinDesk",
+        "u": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund"
+      },
+      "links": [
+        {
+          "t": "Cointelegraph: structure, eligibility and minimum",
+          "u": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar"
+        },
+        {
+          "t": "Ledger Insights: segregated portfolio and issuer-sponsored route",
+          "u": "https://www.ledgerinsights.com/janus-henderson-launches-native-tokenized-nasdaq-100-fund-on-stellar/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-10-28-003",
+      "date": "2026-10-28",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "B",
+      "head": "Hong Kong's SFC approves round-the-clock trading of two retail tokenized money market funds",
+      "fact": "Hong Kong's Securities and Futures Commission approved 24/7 secondary trading of ChinaAMC's HKD and USD tokenized money market funds on PantherTrade, a licensed platform owned by Futu, Ledger Insights and Caixin report.",
+      "num": "$660M",
+      "numLabel": "reported assets of the ChinaAMC tokenized fund (Ledger Insights)",
+      "mech": "orderbook",
+      "mechanism": "Tokens trade on an order book inside PantherTrade and cannot be withdrawn; official ownership stays on the fund's off-chain register. Subscriptions and redemptions still follow the fund's documents.",
+      "implication": "Secondary trading outside business hours gives retail holders an exit route that primary redemptions alone did not, under a regulator-run pilot.",
+      "evidence": [
+        "Only Class F shares trade on PantherTrade, per Ledger Insights",
+        "The Asset reports a real-time indicative NAV display, price-deviation alerts and a five-minute cooling-off control",
+        "Caixin reports 17 tokenized products are open to Hong Kong retail investors, with $1.3B in assets as of October"
+      ],
+      "source": {
+        "n": "Ledger Insights",
+        "u": "https://www.ledgerinsights.com/hong-kong-launches-regulated-24-7-trading-of-retail-tokenized-money-market-funds/"
+      },
+      "links": [
+        {
+          "t": "Caixin: SFC approval and retail market size",
+          "u": "https://www.caixinglobal.com/2026-10-27/hong-kong-opens-secondary-trading-for-retail-tokenized-funds-102497617.html"
+        },
+        {
+          "t": "The Asset: investor safeguards on PantherTrade",
+          "u": "https://www.theasset.com/article/57386/hk-launches-first-ever-24-7-secondary-trading-of-digital-funds"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-27-001",
       "date": "2026-10-27",
