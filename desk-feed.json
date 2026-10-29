@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-10-28T00:58:00-04:00",
+  "updated": "2026-10-29T00:44:31-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-29-001",
+      "date": "2026-10-29",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "DTCC launches its Tokenization Service for securities held at DTC, with 20 participants signed",
+      "fact": "On October 28 the Depository Trust Company, a DTCC subsidiary, launched the DTCC Tokenization Service, which mints tokenized versions of securities it holds in custody. DTC says 20 participants, including J.P. Morgan, Citi, Fidelity and UBS, have signed agreements to use it.",
+      "num": "20",
+      "numLabel": "DTC Participants signed to use the service at launch",
+      "mech": "distribution",
+      "mechanism": "Holders convert securities held at DTC into tokenized \"digital twins\" and send them to chosen digital wallets, with the same ownership rights and entitlements as the originals. The service currently runs on the Canton Network and DTCC's private Besu network.",
+      "implication": "The largest U.S. securities depository now offers tokenization inside a regulated framework, moving it from pilot trades to a live service.",
+      "evidence": [
+        "Scope under a December 2025 SEC no-action letter: Russell 1000 stocks, major-index ETFs and U.S. Treasuries",
+        "DTC reports more than $114 trillion in assets under custody",
+        "Built with input from more than 150 firms; more blockchain networks are planned for 2027",
+        "DTCC and more than 30 firms completed limited production trades about seven months after the SEC letter"
+      ],
+      "source": {
+        "n": "DTCC",
+        "u": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: early adopters and launch details",
+          "u": "https://www.ledgerinsights.com/alpaca-citi-jp-morgan-among-early-adopters-as-dtcc-tokenization-service-goes-live/"
+        },
+        {
+          "t": "Ledger Insights: how the service works",
+          "u": "https://www.ledgerinsights.com/how-dtcc-tokenization-actually-works/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-10-28-001",
       "date": "2026-10-28",
