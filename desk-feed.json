@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-29T00:44:31-04:00",
+  "updated": "2026-10-30T00:44:51-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-30-001",
+      "date": "2026-10-30",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Chainlink launches 24/7 pricing for tokenized assets, with Aave as launch partner",
+      "fact": "On October 29 Chainlink launched Chainlink 24/7, a data service that prices tokenized stocks, commodities and funds through weekends and market holidays. Aave is the launch partner and uses it to price tokenized U.S. equities posted as collateral on its institutional platform, Horizon.",
+      "num": "$1.6B",
+      "numLabel": "tokenized stocks covered by Chainlink's 24/5 pricing, per Chainlink",
+      "mech": "",
+      "mechanism": "From 8 PM ET Friday to 8 PM ET Sunday and on holidays, the price is built from quotes on several perpetual futures venues, not from the closed stock exchange. The service switches between this source and regular session data as markets open and close.",
+      "implication": "Onchain lending against tokenized equities needs prices when exchanges are shut; the off-hours price here is a derivatives-based reference, not an exchange quote.",
+      "evidence": [
+        "Chainlink says the off-hours reference aggregates several venues and filters stale inputs and outliers",
+        "Delivered through Data Feeds (onchain, for lending) and Data Streams (low-latency, for trading venues)",
+        "Chainlink's documentation warns off-hours trading can mean thinner liquidity and wider spreads",
+        "Adoption and market-share figures in the post are self-reported by Chainlink"
+      ],
+      "source": {
+        "n": "Chainlink",
+        "u": "https://chain.link/blog/introducing-chainlink-24-7"
+      },
+      "links": [
+        {
+          "t": "crypto.news: coverage noting Aave market and asset list were not specified",
+          "u": "https://crypto.news/chainlink-24-7-rwa-pricing-aave/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-30-002",
+      "date": "2026-10-30",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "B",
+      "head": "BayernLB settles a €100M tokenized commercial paper in central bank money on Pontes",
+      "fact": "BayernLB issued €100M of commercial paper as a crypto security on October 27, paid for through the Eurosystem's Pontes platform. Börsen-Zeitung reports Siemens was the investor, and BayernLB is the first German institution to transact on Pontes.",
+      "num": "€100M",
+      "numLabel": "commercial paper issued as a crypto security",
+      "mech": "",
+      "mechanism": "The paper was recorded on the Swiat private blockchain, which acts as the crypto-securities register, while payment moved in digital central bank money on Pontes. Ownership and payment transferred together within minutes.",
+      "implication": "It adds a German corporate-paper case to the Pontes settlement now being used by European issuers, shortening a process that normally takes at least a day.",
+      "evidence": [
+        "Börsen-Zeitung names DekaBank as custodian and Swiat as register keeper",
+        "Swiat's blockchain was developed by DekaBank, LBBW, Standard Chartered and Comyno",
+        "BayernLB's CFO André Haag said analog trading and settlement of commercial paper sit at least a day apart",
+        "Seven German institutions are certified as Pontes market participants, per Börsen-Zeitung"
+      ],
+      "source": {
+        "n": "Börsen-Zeitung",
+        "u": "https://www.boersen-zeitung.de/banken-finanzen/bayernlb-debuetiert-wertpapier-transaktion-ueber-pontes-im-deutschen-markt"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: independent report confirming issuance, amount and settlement",
+          "u": "https://www.ledgerinsights.com/bayernlb-issues-tokenized-commercial-paper-settled-using-central-bank-money-via-pontes/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-29-001",
       "date": "2026-10-29",
