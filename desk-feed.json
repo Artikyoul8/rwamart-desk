@@ -1,7 +1,77 @@
 {
   "schema": 1,
-  "updated": "2026-10-30T00:44:51-04:00",
+  "updated": "2026-10-31T00:44:26-04:00",
   "entries": [
+    {
+      "id": "MART-2026-10-31-001",
+      "date": "2026-10-31",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Bank of England consults on letting clearing houses accept tokenized collateral",
+      "fact": "On October 29 the Bank of England opened a consultation on supervisory expectations for central counterparties (CCPs) that want to accept tokenized forms of eligible collateral. Responses close on February 12, 2027.",
+      "num": "Feb 12, 2027",
+      "numLabel": "deadline for responses to the consultation",
+      "mech": "",
+      "mechanism": "A CCP guarantees trades and holds collateral against them. Under the draft, a tokenized version of already-eligible collateral, such as a government bond, is assessed under the existing approval process rather than a separate regime.",
+      "implication": "Clearing is where collateral is demanded and moved, so a clear UK approval path for tokenized assets there matters for how widely they can be used.",
+      "evidence": [
+        "The Bank’s initial view is that the existing framework does not bar CCPs from accepting tokenized eligible collateral",
+        "Tokenized collateral must stay valuable, transferable and realizable when needed, including under stress",
+        "The Bank applies a “same risk, same regulatory outcome” principle, per Ledger Insights",
+        "Ledger Insights reports the Bank also seeks evidence on stablecoins, tokenized money market fund units and tokenized gold"
+      ],
+      "source": {
+        "n": "Bank of England",
+        "u": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
+      },
+      "links": [
+        {
+          "t": "Bank of England: consultation paper",
+          "u": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral"
+        },
+        {
+          "t": "Ledger Insights: adds the stablecoin, tokenized money market fund and gold questions",
+          "u": "https://www.ledgerinsights.com/bank-of-england-opens-door-to-tokenized-collateral-at-ccps-floats-stablecoins-and-tokenized-mmfs/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-10-31-002",
+      "date": "2026-10-31",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "Goldman Sachs starts using EquiLend’s 1Source ledger for securities lending",
+      "fact": "EquiLend announced on October 28 that Goldman Sachs is using 1Source, its distributed ledger platform for securities lending and financing. BNY and National Bank of Canada began sending live transactions to it a year earlier.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "1Source is a shared private ledger, built on Digital Asset’s Canton technology, that holds one agreed record of each lending trade and its later changes, so each party no longer reconciles its own copy.",
+      "implication": "A third major dealer on a shared ledger shows distributed ledger technology moving into post-trade plumbing, not only into tokenized assets.",
+      "evidence": [
+        "EquiLend says more counterparties are in the process of adopting 1Source",
+        "EquiLend says it cuts reconciliation work, transaction breaks and third-party comparison fees",
+        "Ledger Insights notes Goldman is also a minority shareholder in EquiLend"
+      ],
+      "source": {
+        "n": "EquiLend (PR Newswire)",
+        "u": "https://www.finanznachrichten.de/nachrichten-2026-10/69961797-equilend-s-1source-dlt-adds-goldman-sachs-008.htm"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: explains the Canton-based ledger and the trade-break problem",
+          "u": "https://www.ledgerinsights.com/goldman-sachs-joins-equilends-dlt-securities-lending-platform-1source/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-30-001",
       "date": "2026-10-30",
