@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T00:44:26-04:00",
+  "updated": "2026-11-01T00:44:27-04:00",
   "entries": [
+    {
+      "id": "MART-2026-11-01-001",
+      "date": "2026-11-01",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Clearstream gets Luxembourg approval to control tokenized fund shares on a DLT platform",
+      "fact": "Clearstream, Deutsche Börse Group's post-trade arm, said on October 28 that Luxembourg's financial regulator, the CSSF, authorized it as a Control Agent under Blockchain Law IV. Asset managers can tokenize a single share class of an existing UCITS or AIF fund.",
+      "num": "1",
+      "numLabel": "share class is enough to start tokenizing an existing fund",
+      "mech": "whitelist",
+      "mechanism": "The Control Agent holds the central issuance account on the ledger and reconciles issued tokens against holdings at participating account keepers. Only whitelisted securities accounts can hold or receive the tokens.",
+      "implication": "Tokenization is being added beneath existing fund structures instead of replacing them, which lowers the barrier for managers that already run UCITS and AIF funds.",
+      "evidence": [
+        "Transfer agents, administrators, custodians and depositaries keep their current roles",
+        "Subscriptions, transfers and redemptions run on validated instructions in a permissioned DLT environment",
+        "Clearstream says the service runs on a fully integrated DLT platform subject to completion of CSSF regulatory processes",
+        "Part of Clearstream Fund Services' roadmap, including Vestima Digital"
+      ],
+      "source": {
+        "n": "Clearstream",
+        "u": "https://www.clearstream.com/clearstream-en/newsroom/261028-5667846"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: contrasts Clearstream's model with Investre's native approach",
+          "u": "https://www.ledgerinsights.com/clearstream-to-issue-tokenized-fund-shares-as-luxembourg-control-agent/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-01-002",
+      "date": "2026-11-01",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Data",
+      "tier": "A",
+      "head": "DBS survey: 88% of large businesses are deploying or piloting tokenized money",
+      "fact": "DBS said on October 28 that 88% of 422 business and finance leaders surveyed by EY are deploying or piloting tokenized money use cases. Respondents came from companies with annual revenue above $500M across 11 markets.",
+      "num": "88%",
+      "numLabel": "of surveyed large businesses deploying or piloting tokenized money",
+      "mech": "",
+      "mechanism": "Tokenized money covers stablecoins, tokenized bank deposits and tokenized money market funds, which move on shared ledgers so treasurers can settle and manage cash around the clock.",
+      "implication": "Corporate treasury interest is a demand signal for tokenized cash instruments, though a bank-commissioned survey measures stated adoption, not volumes.",
+      "evidence": [
+        "Stablecoins: 63% using or planning to adopt",
+        "Tokenized deposits: 53%",
+        "Tokenized money market funds: 52%",
+        "Report: \"The Great Rewiring: Money in a new order\", the fourth in DBS's treasury series"
+      ],
+      "source": {
+        "n": "DBS",
+        "u": "https://www.dbs.com/newsroom/Over_eight_in_10_businesses_starting_to_adopt_tokenised_money_to_aid_liquidity_management_improve_payments_and_support_business_expansion_DBS_survey"
+      },
+      "links": [
+        {
+          "t": "Fintech News Singapore: respondent count and markets",
+          "u": "https://fintechnews.sg/?p=139876"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-10-31-001",
       "date": "2026-10-31",
