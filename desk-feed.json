@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-01T00:44:27-04:00",
+  "updated": "2026-11-01T23:45:30-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-01-003",
+      "date": "2026-11-01",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "OKXICE's October 30 notice lists 50 issuer objections to tokenized trading of their shares",
+      "fact": "OKXICE’s public notice dated October 30 lists 50 issuers that have objected to its venue offering tokenized versions of their stock, up from 22 in its October 26 notice. New names include Nvidia, Nike, Costco, Micron and Reddit.",
+      "num": "50",
+      "numLabel": "issuers listed as objecting in OKXICE’s October 30 notice",
+      "mech": "permissioning",
+      "mechanism": "OKXICE runs permissioned Uniswap v4 liquidity pools on XLayer, open only to wallets holding a soulbound token issued after KYC checks. It does not issue or tokenize the stocks itself.",
+      "implication": "Under the SEC’s temporary exemption, issuer consent is a real gate: a venue can only list third-party tokenized shares that no issuer has objected to.",
+      "evidence": [
+        "The notice states OKXICE TSV has no order book and does not take custody of participants’ assets",
+        "OKXICE is a 50/50 joint venture of Intercontinental Exchange and OKX’s U.S. holding company",
+        "Other objectors listed include Microsoft, Alphabet, JPMorgan Chase, Goldman Sachs and Walmart",
+        "Trading in a stock is halted on the venue when the underlying stock is halted"
+      ],
+      "source": {
+        "n": "OKXICE TSV public notice",
+        "u": "https://www.okx.com/cdn/assets/okfe/web3-activities/okxicetsv/notices/OKXICE_Tokenized_Securities_Venue_Public_Notice_26.10.30.pdf"
+      },
+      "links": [
+        {
+          "t": "crypto.news: tally of objections and the SEC exemption process",
+          "u": "https://crypto.news/50-companies-oppose-okxice-tokenized-stocks/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-01-001",
       "date": "2026-11-01",
