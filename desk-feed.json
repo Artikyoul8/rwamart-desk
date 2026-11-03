@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-11-01T23:45:30-05:00",
+  "updated": "2026-11-02T23:44:49-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-02-001",
+      "date": "2026-11-02",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "HKMA's EnsembleTX pilot now settles tokenized deposits in central bank money 24/7",
+      "fact": "On November 2 the Hong Kong Monetary Authority said EnsembleTX, the pilot phase of Project Ensemble, now settles interbank tokenized deposit transactions in tokenized central bank money around the clock. Participating banks rose to 12 and industry pioneers to 20.",
+      "num": "24/7",
+      "numLabel": "interbank settlement in tokenized central bank money",
+      "mech": "",
+      "mechanism": "A tokenized deposit payment between banks needs a matching interbank settlement. That leg ran on the HKD real-time gross settlement system, tied to its operating hours; it can now settle in tokenized central bank money at any time.",
+      "implication": "Settlement that runs outside banking hours removes a practical limit on moving tokenized deposits and tokenized fund shares, the cash side that tokenized assets depend on.",
+      "evidence": [
+        "EnsembleTX launched in November 2025 with settlement through the HKD RTGS system",
+        "Participating banks now number 12 and industry pioneers 20, per the HKMA",
+        "Named participants include HSBC, Standard Chartered (Hong Kong), BlackRock and Ant International",
+        "Use cases: corporate treasury with tokenized deposits and tokenized money market fund transactions"
+      ],
+      "source": {
+        "n": "HKMA",
+        "u": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: reports the rise from 7 to 12 banks and 13 to 20 pioneers",
+          "u": "https://www.ledgerinsights.com/hong-kongs-ensembletx-pilot-now-supports-24-7-tokenized-central-bank-money/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-02-002",
+      "date": "2026-11-02",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Eurex Clearing plans to clear digital securities, including ESM bonds, under one rulebook",
+      "fact": "On November 2 Eurex Clearing said it intends to become the first central counterparty to run traditional and digital business under one framework, rulebook and risk model. Native digital instruments such as European Stability Mechanism issues would trade on Eurex Repo's GC Pooling segment.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "Eurex Clearing would novate and clear the digital instruments as a regulated central counterparty and accept them as margin collateral. Clearstream would handle issuance, settlement through the Eurosystem's Pontes solution, custody and collateral reuse.",
+      "implication": "Clearing houses accepting digital securities as collateral ties tokenized issuance to existing repo and margin markets, where liquidity already sits.",
+      "evidence": [
+        "Clients would reach digital markets through existing clearing relationships, with no new connectivity or legal agreements",
+        "Digital instruments would also become eligible for the ECB GC Pooling basket",
+        "Eurex did not state an effective date in the release"
+      ],
+      "source": {
+        "n": "Eurex",
+        "u": "https://www.eurex.com/ex-en/find/news-center/news/Eurex-Clearing-to-become-the-world-s-first-Hybrid-CCP-5678036"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: describes the ESM bond as eligible repo and margin collateral",
+          "u": "https://www.ledgerinsights.com/eurex-calls-itself-first-hybrid-ccp-as-esm-digital-bond-qualifies-for-repo-margin/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-01-003",
       "date": "2026-11-01",
