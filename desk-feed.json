@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T23:44:49-05:00",
+  "updated": "2026-11-03T23:44:36-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-03-001",
+      "date": "2026-11-03",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Bank of England approves LSEG's digital securities depository for live use in the UK sandbox",
+      "fact": "A Bank of England notice dated October 23 approves LSEG B3 Limited to operate as a Digital Securities Depository in the UK's Digital Securities Sandbox, subject to conditions. Ledger Insights reports it is the third firm to pass Gate 2, after HSBC and ClearToken.",
+      "num": "3rd",
+      "numLabel": "firm to pass Gate 2 of the Digital Securities Sandbox",
+      "mech": "",
+      "mechanism": "A digital securities depository records, holds and settles securities on distributed ledger technology under Bank of England supervision. LSEG's can also link to HSBC's Orion platform, which will issue the UK government's pilot digital gilt, DIGIT.",
+      "implication": "UK market infrastructure for tokenized securities is moving from sandbox design to live, capped operation, with a second depository able to hold DIGIT alongside HSBC's.",
+      "evidence": [
+        "Core functions approved: notary, central maintenance and settlement, with per-instrument limits set in the notice",
+        "Conditions: a Gate 2 self-attestation and confirmation of the cash-leg arrangements",
+        "Restriction: no services directly to retail customers",
+        "Ledger Insights reports first DIGIT issuance is targeted for Q1 2027"
+      ],
+      "source": {
+        "n": "Bank of England",
+        "u": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability/digital-securities-sandbox/sandbox-approval-notices/lseg-b3-gate-2-san.pdf"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: Gate 2 sequence, HSBC Orion link and DIGIT timing",
+          "u": "https://www.ledgerinsights.com/lseg-digital-securities-depository-approved-for-uk-sandbox/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-11-02-001",
       "date": "2026-11-02",
