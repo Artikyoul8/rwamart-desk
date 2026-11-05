@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T23:44:36-05:00",
+  "updated": "2026-11-04T23:46:41-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-04-001",
+      "date": "2026-11-04",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "NYSE adds Broadridge, Computershare, Equiniti and Superstate as transfer agents for tokenized securities",
+      "fact": "On November 2 the New York Stock Exchange named four more transfer agents for a planned venue trading issuer-sponsored tokenized securities. They join Securitize and tZERO; the venue still needs regulatory approval.",
+      "num": "~5,000",
+      "numLabel": "listed companies served by the three legacy agents, per NYSE",
+      "mech": "distribution",
+      "mechanism": "In an issuer-sponsored model the company itself authorizes the token, and a transfer agent keeps the official share register onchain. That keeps shareholder records, voting and corporate actions tied to the token.",
+      "implication": "The firms that keep shareholder registers for nearly all S&P 500 companies are now lined up for tokenized equity, which makes the NYSE plan a register-level change, not only a new trading screen.",
+      "evidence": [
+        "NYSE says the three legacy agents serve close to 5,000 listed companies, including nearly 99% of the S&P 500",
+        "Computershare is described as the first transfer agent to offer issuer-sponsored tokens",
+        "Broadridge will add onchain shareholder voting and governance services",
+        "CoinDesk reports plans for 24/7 trading and stablecoin funding, subject to regulatory approval"
+      ],
+      "source": {
+        "n": "NYSE",
+        "u": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: adds Broadridge's voting role and the 24/7, stablecoin-funding plans",
+          "u": "https://www.coindesk.com/business/2026/11/02/nyse-taps-wall-street-giant-broadridge-to-bring-shareholder-voting-onto-blockchain-rails"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-04-002",
+      "date": "2026-11-04",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "Standard Chartered launches tokenized deposits for corporate clients in Hong Kong",
+      "fact": "On November 2 Standard Chartered launched a tokenized deposit service for eligible corporate clients in Hong Kong, its first market for the product. Transfers between participating banks settle 24/7 in central bank money on the HKMA's EnsembleTX.",
+      "num": "24/7",
+      "numLabel": "interbank settlement in central bank money",
+      "mech": "",
+      "mechanism": "A tokenized deposit is a bank deposit recorded on a blockchain, so it stays a liability of the bank. Standard Chartered's chain connects to EnsembleTX, where banks settle with each other in central bank money.",
+      "implication": "Bank-issued deposit tokens are reaching live corporate use with central bank settlement, an alternative to private stablecoins for moving cash alongside tokenized assets.",
+      "evidence": [
+        "China AMC and PantherTrade have settled tokenized money market funds through the service",
+        "Finloop is also named as executing live transactions; Hashkey is joining and Fireblocks is a partner",
+        "No transaction volumes or deposit amounts were disclosed"
+      ],
+      "source": {
+        "n": "Standard Chartered",
+        "u": "https://www.sc.com/en/press-release/standard-chartered-launches-tokenised-deposits-in-hong-kong/"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: EnsembleTX participant counts and 24-hour settlement context",
+          "u": "https://www.coindesk.com/business/2026/11/02/standard-chartered-debuts-tokenized-deposits-in-hong-kong-for-corporate-clients"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-03-001",
       "date": "2026-11-03",
