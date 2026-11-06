@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T23:46:41-05:00",
+  "updated": "2026-11-05T23:44:16-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-05-001",
+      "date": "2026-11-05",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "HSBC, J.P. Morgan, MUFG, SG Forge and Standard Chartered found Global Layer One Organisation",
+      "fact": "On November 4 five banks announced the Global Layer One Organisation (GL1), a non-profit to advance infrastructure for tokenized financial markets. Ledger Insights reports it takes GL1 over from the Monetary Authority of Singapore (MAS) and hands it to industry.",
+      "num": "5",
+      "numLabel": "founding banks named by Ledger Insights",
+      "mech": "permissioning",
+      "mechanism": "GL1 started under MAS as a project to define how regulated institutions could share ledger infrastructure for tokenized assets. The new body is meant to develop common frameworks and standards that tokenization networks can follow, rather than operate one ledger itself.",
+      "implication": "Common standards among large banks could make tokenized markets easier to connect across networks, but the page names no timetable or membership terms yet.",
+      "evidence": [
+        "GL1's own page lists J.P. Morgan, MUFG, SG Forge, HSBC and Standard Chartered as industry members",
+        "Policymakers listed on the page include the City, Banque de France and MAS",
+        "Stated aims: open, interoperable shared ledger infrastructure and common international standards",
+        "Ledger Insights says the original shared-ledger vision gave way to agreeing rules, citing unnamed sources"
+      ],
+      "source": {
+        "n": "Global Layer One",
+        "u": "https://global-layer-one.org/"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: founders, MAS handover and background on earlier toolkits",
+          "u": "https://www.ledgerinsights.com/hsbc-jpm-3-other-g-sibs-set-up-gl1-non-profit-to-further-tokenization-standards/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-11-04-001",
       "date": "2026-11-04",
