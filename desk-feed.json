@@ -1,7 +1,81 @@
 {
   "schema": 1,
-  "updated": "2026-11-05T23:44:16-05:00",
+  "updated": "2026-11-14T23:34:39-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-14-001",
+      "date": "2026-11-14",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Bank of England, MAS and Bank of Thailand complete Meridian FX trial linking RTGS and DLT settlement",
+      "fact": "On November 13 the Bank of England, the Monetary Authority of Singapore (MAS) and the Bank of Thailand said Project Meridian FX APAC completed payment-versus-payment (PvP) FX settlement across their test systems. Partior built the synchronization operator; Australia’s and the Philippines’ central banks observed.",
+      "num": "$1.4T",
+      "numLabel": "daily FX settlement fully exposed to settlement risk (BIS, April 2025)",
+      "mech": "conditional",
+      "mechanism": "A synchronization operator matches both legs of an FX trade, reserves funds in each central bank system and triggers settlement only when both sides are ready, so neither bank pays without receiving. Where a system supports earmarking, funds stay in participants’ accounts until settlement.",
+      "implication": "Central banks are testing how conventional and tokenized settlement systems can settle against each other, a step tokenized money and assets need before they can settle across borders.",
+      "evidence": [
+        "Tested PvP and multilateral net FX settlement across real-time gross settlement (RTGS) and distributed ledger systems",
+        "In the MAS test environment the operator used an escrow account, which the policy report says raises custodial and insolvency questions",
+        "The Bank of England plans a live synchronization interface in 2028"
+      ],
+      "source": {
+        "n": "Bank of England",
+        "u": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
+      },
+      "links": [
+        {
+          "t": "Bank of England: Meridian FX APAC policy report on finality, escrow and governance",
+          "u": "https://www.bankofengland.co.uk/payments/payments-innovation/wholesale-experiments-programme/project-meridian-fx-apac-policy-report"
+        },
+        {
+          "t": "The Block: trial coverage and next steps",
+          "u": "https://www.theblock.co/news/regulation/2026-11-13-uk-singapore-and-thailand-central-banks-complete-foreign-exchange-settlement-trial-linking-traditional-and-tokenized-systems-439692"
+        },
+        {
+          "t": "Ledger Insights: how each central bank system reserved funds",
+          "u": "https://www.ledgerinsights.com/bank-of-england-mas-bank-of-thailand-complete-dlt-synchronization-trials/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-14-002",
+      "date": "2026-11-14",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "B",
+      "head": "Kazakhstan plans tokenized government bonds for early 2027 after first tokenized central bank notes",
+      "fact": "On November 13 National Bank of Kazakhstan Governor Timur Suleimenov said the bank plans to issue tokenized government bonds with the Finance Ministry, probably in the first quarter of 2027, The Astana Times and CoinDesk reported. He spoke at the 14th Congress of Financiers in Almaty.",
+      "num": "10B tenge",
+      "numLabel": "tokenized part of the National Bank’s November 9 sale of 91-day notes",
+      "mech": "",
+      "mechanism": "The November notes were short-term central bank obligations sold in both conventional and tokenized form on the Kazakhstan Stock Exchange (KASE) digital asset platform. The planned bonds would be Finance Ministry debt.",
+      "implication": "Kazakhstan is moving from a tokenized test note to tokenized sovereign borrowing, putting state debt on the same rails being built for tokenized markets.",
+      "evidence": [
+        "The tokenized 10 billion tenge was part of a 50 billion tenge note issue, per CoinDesk",
+        "Weighted average yield on the notes was 15.72%",
+        "KASE says its digital asset platform runs on Solana, per CoinDesk",
+        "Suleimenov named real estate, precious metals and mineral resources as next tokenization targets"
+      ],
+      "source": {
+        "n": "The Astana Times",
+        "u": "https://astanatimes.com/2026/11/kazakhstan-plans-to-issue-tokenized-government-bonds-in-first-quarter-of-2027/"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: note sale size, yield, demand and KASE platform details",
+          "u": "https://www.coindesk.com/business/2026/11/14/kazakhstan-plans-tokenized-government-bonds-in-first-quarter-after-usd22-million-note-sale"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-05-001",
       "date": "2026-11-05",
