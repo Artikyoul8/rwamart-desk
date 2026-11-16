@@ -1,7 +1,41 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T23:34:39-05:00",
+  "updated": "2026-11-15T23:46:47-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-15-001",
+      "date": "2026-11-15",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Data",
+      "tier": "A",
+      "head": "Tokenized Treasuries total $13.92B on RWA.xyz, down 5.45% in 30 days",
+      "fact": "RWA.xyz's tokenized U.S. Treasuries dashboard, dated November 16, listed $13.92B in distributed value across 123 funds, down 5.45% from 30 days earlier. It counted 86,310 holders and an average seven-day annual percentage yield (APY) of 3.57%.",
+      "num": "$13.92B",
+      "numLabel": "distributed tokenized Treasury value on RWA.xyz, dated November 16",
+      "mech": "",
+      "mechanism": "These funds hold short-term U.S. government debt and record fund ownership as tokens. RWA.xyz counts as distributed only tokens that holders can transfer onchain, separately from assets that are merely recorded on a chain.",
+      "implication": "Over 30 days tokenized Treasuries shrank faster than RWAs overall and alongside a 5.08% drop in stablecoins, while RWA holder counts kept rising, as in the October 19 file.",
+      "evidence": [
+        "Largest funds: Ondo's USDY at $2.40B, Circle's USYC at $2.02B and Franklin Templeton's iBENJI at $1.71B",
+        "BlackRock's BUIDL ranked fourth at $1.65B",
+        "All distributed RWAs: $39.53B, down 1.67% in 30 days; stablecoins: $277.43B, down 5.08%",
+        "RWA asset holders: 5,750,232, up 6.08% in 30 days"
+      ],
+      "source": {
+        "n": "RWA.xyz",
+        "u": "https://app.rwa.xyz/treasuries"
+      },
+      "links": [
+        {
+          "t": "RWA.xyz: overall distributed RWA, holder and stablecoin totals",
+          "u": "https://app.rwa.xyz/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-11-14-001",
       "date": "2026-11-14",
