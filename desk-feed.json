@@ -1,7 +1,104 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T23:46:47-05:00",
+  "updated": "2026-11-16T23:44:37-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-16-001",
+      "date": "2026-11-16",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "DBS and J.P. Morgan's Kinexys link tokenized deposits for 24/7 dollar transfers between the US and Singapore",
+      "fact": "On November 16 DBS and Kinexys by J.P. Morgan launched a link between DBS Token Services and Kinexys’ permissioned tokenized deposit network. Institutional clients of both banks can move U.S. dollars between blockchain accounts in the U.S. and Singapore at any hour, including weekends.",
+      "num": "24/7",
+      "numLabel": "availability of USD tokenized deposit transfers between the two banks",
+      "mech": "permissioning",
+      "mechanism": "Each bank records client dollar deposits as tokens on its own permissioned ledger, and Partior, a settlement network both banks helped found, coordinates the transfer between them. The money stays a bank deposit throughout; only approved clients can use it.",
+      "implication": "It turns the banks’ November 2025 framework into a live service. Tokenized deposits now cross a border between two banks outside banking hours, not only within one bank.",
+      "evidence": [
+        "Ant International is the first client, using it for treasury and liquidity across its U.S. and Singapore entities",
+        "Moves between Kinexys blockchain accounts and legacy accounts pause 3–6 p.m. ET each Saturday; a fix is in development",
+        "DBS and Kinexys co-lead the token interoperability workgroup of the Monetary Authority of Singapore’s Project BLOOM"
+      ],
+      "source": {
+        "n": "DBS",
+        "u": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_launch_industry_first_247_interoperability_solution_for_cross_border_tokenised_deposit_transfers"
+      },
+      "links": [
+        {
+          "t": "The Block: launch timing and background on the 2025 framework",
+          "u": "https://www.theblock.co/news/business/2026-11-16-dbs-jpmorgan-launch-tokenized-deposit-transfers-440854"
+        },
+        {
+          "t": "CoinDesk: how the permissioned networks and weekend limits work",
+          "u": "https://www.coindesk.com/business/2026/11/16/j-p-morgan-and-dbs-let-clients-move-dollars-across-borders-on-weekends"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-16-002",
+      "date": "2026-11-16",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Four Democratic senators press SEC Chair Atkins on gaps in the tokenized stock exemption",
+      "fact": "In a November 12 letter released November 16, Senators Alsobrooks, Warner, Gallego and Cortez Masto asked SEC Chair Paul Atkins 13 questions about the September 17 Innovation Exemption for tokenized securities venues. They asked for answers within 30 days and for any changes to go through public rulemaking.",
+      "num": "13",
+      "numLabel": "questions the senators put to the SEC on the Innovation Exemption",
+      "mech": "whitelist",
+      "mechanism": "The exemption lets tokenized securities venues trade tokenized stocks without registering as exchanges. The senators note it does not require token-level transfer limits, so a token bought by a verified holder could move to an unverified wallet.",
+      "implication": "Transfer controls and issuer consent are now in the political debate over the exemption, a week before OKXICE plans to open its tokenized stock venue under it.",
+      "evidence": [
+        "Letter says the exemption sets no identity-verification standard and does not require an anti-money-laundering program",
+        "Senators cite more than 60 public companies that objected to tokenization of their shares",
+        "They ask whether the SEC can trace, freeze or recover tokens moved to offshore wallets",
+        "The Block reports the SEC declined to comment"
+      ],
+      "source": {
+        "n": "Office of Sen. Angela Alsobrooks",
+        "u": "https://www.alsobrooks.senate.gov/news/press-releases/alsobrooks-leads-colleagues-in-pushing-sec-for-answers-transparency-on-tokenized-stock-change/"
+      },
+      "links": [
+        {
+          "t": "The Block: SEC response and context on the September exemption",
+          "u": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-11-16-003",
+      "date": "2026-11-16",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "HKMA and Swift will test cross-border tokenized deposit payments between Swift's ledger and Project Ensemble",
+      "fact": "On November 16 the Hong Kong Monetary Authority (HKMA) said it will work with Swift to explore interoperability between the Swift ledger and the settlement layer of Project Ensemble. Bank of China (Hong Kong), Standard Chartered and HSBC will take part.",
+      "num": "3",
+      "numLabel": "Hong Kong banks taking part in the HKMA–Swift work",
+      "mech": "",
+      "mechanism": "Project Ensemble’s settlement layer, EnsembleTX, settles tokenized deposits locally in Hong Kong; the Swift ledger coordinates transfers between banks’ own ledgers. The aim is multi-currency cross-border payments in tokenized deposits.",
+      "implication": "Hong Kong is extending its local tokenized-money rail, which began 24/7 central bank money settlement on November 2, toward cross-border payments over a global network.",
+      "evidence": [
+        "HKMA and Swift have worked together since 2023 in the Project Ensemble Sandbox",
+        "Scope covers tokenized deposits in multiple currencies; the release names no timeline",
+        "HKMA Deputy Chief Executive Howard Lee: EnsembleTX “has entered a new chapter”"
+      ],
+      "source": {
+        "n": "Hong Kong Monetary Authority",
+        "u": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-15-001",
       "date": "2026-11-15",
