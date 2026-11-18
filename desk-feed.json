@@ -1,7 +1,69 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T23:44:37-05:00",
+  "updated": "2026-11-17T23:46:16-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-17-001",
+      "date": "2026-11-17",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "World Bank Group to explore USDC payouts with Citi and Circle to speed fund disbursements",
+      "fact": "On November 17 the World Bank Group said it will explore regulated U.S. dollar stablecoins with Citi and Circle to make its fund disbursements cheaper, faster and more transparent. Circle would mint and settle funds in USDC; Citi would connect the system to established banking rails.",
+      "num": "350+",
+      "numLabel": "projects on FundsChain, the Bank's disbursement-tracking ledger",
+      "mech": "",
+      "mechanism": "Disbursements now travel through correspondent banks; the test adds a blockchain rail on which USDC, a dollar stablecoin, is minted and settled alongside those bank links. It builds on FundsChain, which already lets project parties trace how money is spent.",
+      "implication": "A lender owned by 189 countries is weighing tokenized dollars for its own payouts, carrying stablecoin settlement from capital markets into development finance.",
+      "evidence": [
+        "Initial scope: an intermediated, interoperable model with borrower countries where digital assets are permitted",
+        "FundsChain covers more than 350 projects in 96 countries",
+        "The Bank plans to explore adding other banks over time; no launch date was given",
+        "The Block reports the group committed $123.5B in fiscal year 2026"
+      ],
+      "source": {
+        "n": "World Bank Group",
+        "u": "https://www.worldbank.org/en/news/press-release/2026/11/17/world-bank-group-explores-regulated-stablecoins-to-modernize-payments-redirect-res"
+      },
+      "links": [
+        {
+          "t": "The Block: partner roles and fiscal 2026 lending figures",
+          "u": "https://www.theblock.co/news/business/2026-11-17-world-bank-group-citi-circle-fund-disbursements-442924"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-17-002",
+      "date": "2026-11-17",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Fed Governor Waller says central bank money must remain the base of tokenized markets",
+      "fact": "At The Clearing House annual conference in New York on November 17, Federal Reserve Governor Christopher Waller said tokenized markets will need several payment options. He expects stablecoins, tokenized deposits and tokenized money market funds to coexist, with central bank money as the foundation.",
+      "num": "",
+      "numLabel": "",
+      "mech": "",
+      "mechanism": "Atomic settlement, where asset and cash swap in one step, is useful, Waller said, but netting and batch settlement still help firms manage liquidity. Traditional rails already handle stablecoin on- and off-ramps and tokenized-deposit settlement.",
+      "implication": "A Fed governor is framing tokenized money as a multi-format market anchored to reserves, on the same day the World Bank said it would test USDC payouts.",
+      "evidence": [
+        "Waller expects several models to coexist rather than one to dominate",
+        "Open issues he named: fraud liability, lost keys, pricing errors and assets stranded on failed chains",
+        "The Fed held a payments innovation roundtable on September 18, 2026",
+        "Waller said the views are his own, not necessarily the Board's or the FOMC's"
+      ],
+      "source": {
+        "n": "Federal Reserve Board",
+        "u": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-16-001",
       "date": "2026-11-16",
