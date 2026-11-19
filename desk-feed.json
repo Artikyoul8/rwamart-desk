@@ -1,7 +1,82 @@
 {
   "schema": 1,
-  "updated": "2026-11-17T23:46:16-05:00",
+  "updated": "2026-11-18T23:46:59-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-18-001",
+      "date": "2026-11-18",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "DBS lets eligible institutional clients mint and redeem Circle's USDC directly, with 24/7 settlement",
+      "fact": "On November 18 DBS and Circle said eligible institutional clients can mint and redeem USDC, Circle's dollar stablecoin, directly through DBS. Dollar-to-USDC settlement runs 24/7 without banking-hour cut-offs; the release gives no eligibility criteria or markets.",
+      "num": "24/7",
+      "numLabel": "USD-USDC settlement for eligible DBS institutional clients",
+      "mech": "",
+      "mechanism": "Circle's regulated affiliates still issue USDC; DBS is the banking access point that takes in dollars on minting and pays them out on redemption. Clients no longer have to rely on exchanges or secondary markets, where liquidity and prices vary, to change their holdings.",
+      "implication": "A large Asian bank now sits directly in a dollar stablecoin's mint-and-redeem path, two days after DBS linked its tokenized deposits with J.P. Morgan's Kinexys.",
+      "evidence": [
+        "DBS and Circle both take part in Project BLOOM, the Monetary Authority of Singapore's tokenized-money initiative",
+        "A DBS report found 88% of large corporations deploying or piloting tokenized money use cases",
+        "Ledger Insights notes Standard Chartered says it handles up to 20% of USDC mint and redemption flows",
+        "Circle's Kash Razzaghi: \"an important step in expanding institutional access to USDC across Asia\""
+      ],
+      "source": {
+        "n": "DBS",
+        "u": "https://www.dbs.com/newsroom/DBS_and_Circle_expand_institutional_access_to_USDC_in_Asia"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: eligibility limits and analyst view on USDC versus USDT in Asia",
+          "u": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia"
+        },
+        {
+          "t": "Ledger Insights: weekend cash-leg question and Standard Chartered context",
+          "u": "https://www.ledgerinsights.com/dbs-enables-24-7-minting-and-burning-of-usdc-stablecoin/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-18-002",
+      "date": "2026-11-18",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "BNY, SWIAT and three banks complete pilot repo and securities lending trades on a shared ledger",
+      "fact": "On November 18 BNY and SWIAT said Standard Chartered, DekaBank and LBBW completed two pilot collateral transactions in October on SWIAT's Collateral ConneX platform. Ledger tokens carried the instructions while the securities stayed in BNY custody.",
+      "num": "2",
+      "numLabel": "pilot collateral transactions completed in October",
+      "mech": "",
+      "mechanism": "The securities themselves were not tokenized: tokens on the ledger represented transaction instructions and mirrored positions, and BNY kept the authoritative books and records. In the repo, the cash leg settled directly between DekaBank and Standard Chartered, outside the platform.",
+      "implication": "Instructing custodied securities through a ledger offers a route to onchain collateral without reissuing assets; an onchain cash leg remains a next step.",
+      "evidence": [
+        "Securities lending: Standard Chartered and LBBW swapped fixed-income securities delivery-versus-delivery, then returned them",
+        "Repo: Standard Chartered delivered fixed-income securities to DekaBank against cash",
+        "DekaBank said the platform could later settle in central bank money, stablecoins or tokenized deposits",
+        "BNY reported $63.4T in assets under custody and/or administration as of September 30"
+      ],
+      "source": {
+        "n": "BNY",
+        "u": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/swiat-and-bny-demonstrate-digital-connectivity-for-bilateral-collateral-transactions.html"
+      },
+      "links": [
+        {
+          "t": "Finadium: transaction details and participant quotes",
+          "u": "https://finadium.com/bny-and-swiat-complete-bilateral-collateral-transactions-in-pilot/"
+        },
+        {
+          "t": "Ledger Insights: what was and was not tokenized",
+          "u": "https://www.ledgerinsights.com/bny-stanchart-others-pilot-collateral-mobility-using-swiat-dlt/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-17-001",
       "date": "2026-11-17",
