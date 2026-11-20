@@ -1,7 +1,115 @@
 {
   "schema": 1,
-  "updated": "2026-11-18T23:46:59-05:00",
+  "updated": "2026-11-19T23:47:46-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-19-001",
+      "date": "2026-11-19",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "MAS issues S$100M of tokenized four-week bills, settled in wholesale central bank digital currency",
+      "fact": "On November 19 the Monetary Authority of Singapore (MAS) said it issued S$100M of four-week tokenized MAS Bills on November 6, natively on its Singapore Dollar Test Network. Five primary dealers bid, and settlement used wholesale central bank digital currency (CBDC).",
+      "num": "S$100M",
+      "numLabel": "tokenized MAS Bills issued November 6, maturing December 4",
+      "mech": "",
+      "mechanism": "The bills exist only as tokens on the MAS-run ledger, rather than being issued conventionally and tokenized afterward, so no reconciliation or intermediary layer is needed. Buyers paid in wholesale CBDC on the same network, which MAS will rename SG Digital Ledger.",
+      "implication": "A central bank now issues a money-market bill natively onchain and settles it in central bank money, and MAS plans to extend its use as collateral in 2027.",
+      "evidence": [
+        "Bidders: DBS, HSBC Singapore branch, OCBC, Standard Chartered and UOB",
+        "Applications topped S$200M, more than double the issue size",
+        "Builds on a 2025 live interbank overnight loan settled in wholesale CBDC",
+        "MAS invites more institutions to join live trials in 2027"
+      ],
+      "source": {
+        "n": "Monetary Authority of Singapore",
+        "u": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-successful-issuance-of-tokenised-mas-bills-on-the-singapore-dollar-test-network"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: auction details and 2027 plans",
+          "u": "https://www.coindesk.com/business/2026/11/19/singapore-settles-usd77-5-million-tokenized-bill-sale-in-local-cbdc"
+        },
+        {
+          "t": "The Block: dealer list and related Singapore launches",
+          "u": "https://www.theblock.co/news/web3/2026-11-19-singapores-mas-tokenized-bills-443562"
+        },
+        {
+          "t": "Ledger Insights: tenor and dealer detail",
+          "u": "https://www.ledgerinsights.com/singapore-scales-up-tokenized-mas-bills-to-s100m/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-19-002",
+      "date": "2026-11-19",
+      "fr": "mechanism",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "B",
+      "head": "Ant International pilots automatic switching between DBS tokenized deposits and a Franklin Templeton fund",
+      "fact": "On November 19 in Singapore, Ant International launched the Whale Orchestration Protocol, an upgrade to its WhaleRTP settlement platform built under MAS's BLOOM initiative. Ant said pilot transactions with DBS and Franklin Templeton are complete.",
+      "num": "20+",
+      "numLabel": "banks connected to Ant's Whale treasury platform, per Ledger Insights",
+      "mech": "conditional",
+      "mechanism": "When a treasury subscribes, its DBS deposit tokens are locked, the fund mints money market fund tokens after its own checks, and only then is the cash released to the asset manager. The two ledgers are synchronized directly, without a third ledger or a bridge.",
+      "implication": "It joins tokenized bank money and tokenized funds that sit on separate ledgers, letting a treasury move cash into a fund and back in one atomically settled step.",
+      "evidence": [
+        "DBS connected its Treasury Tokens; Franklin Templeton its tokenized money market fund",
+        "Ant describes delivery-versus-payment with atomic settlement",
+        "Ant also places cash in tokenized funds from Amundi and ChinaAMC, per Ledger Insights",
+        "A whitepaper was released under MAS's BLOOM Field Guide at the Singapore FinTech Festival"
+      ],
+      "source": {
+        "n": "Ledger Insights",
+        "u": "https://www.ledgerinsights.com/ant-international-dbs-franklin-templeton-automate-tokenized-deposit-to-mmf-switching/"
+      },
+      "links": [
+        {
+          "t": "Global FinTech Series: Ant International release text (Business Wire)",
+          "u": "https://globalfintechseries.com/banking/digital-payments/ant-international-launches-whale-orchestration-protocol-under-mas-bloom-initiative-to-connect-tokenised-money-market-funds-and-tokenised-deposits/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-11-19-003",
+      "date": "2026-11-19",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "Standard Chartered extends tokenized deposits to Singapore, with near real-time transfers to Hong Kong",
+      "fact": "On November 19 Standard Chartered said its tokenized deposits service, built on its own blockchain, now covers Singapore and supports near real-time transfers between Singapore and Hong Kong. Eligible clients can use it in six currencies.",
+      "num": "6",
+      "numLabel": "currencies supported: SGD, HKD, USD, EUR, CNH and GBP",
+      "mech": "",
+      "mechanism": "Clients hold ordinary commercial bank deposits recorded as tokens on the bank's ledger, so balances can move between the two markets in near real time for treasury and investment workflows. The release does not define eligibility or operating hours.",
+      "implication": "The Hong Kong service filed on November 4 now spans two financial centers, adding cross-border reach to a single bank's deposit tokens.",
+      "evidence": [
+        "Named use: intragroup liquidity management, plus treasury and digital-asset activity",
+        "Aimed at corporate treasurers, banks, investment platforms and digital-asset firms",
+        "The bank plans to extend the service to more markets over time",
+        "Same week, Standard Chartered, OCBC and StraitsX completed an interbank tokenized deposit proof of concept, per Ledger Insights"
+      ],
+      "source": {
+        "n": "Standard Chartered",
+        "u": "https://www.sc.com/en/press-release/301703/"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: StraitsX, OCBC and Standard Chartered interbank test",
+          "u": "https://www.ledgerinsights.com/ocbc-standard-chartered-test-cross-bank-tokenized-deposit-payments-via-straitsx/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-18-001",
       "date": "2026-11-18",
