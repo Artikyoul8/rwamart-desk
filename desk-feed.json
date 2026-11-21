@@ -1,7 +1,109 @@
 {
   "schema": 1,
-  "updated": "2026-11-19T23:47:46-05:00",
+  "updated": "2026-11-20T23:48:00-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-20-001",
+      "date": "2026-11-20",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "HSBC opens a tokenized share class of its HK$20.8B money market fund to retail buyers paying in RedCoin",
+      "fact": "HSBC Asset Management launched Class SD, a tokenized share class of HSBC Global Money Funds – Hong Kong Dollar, to the public on November 18. Hong Kong customers can subscribe from HK$100 in the HSBC HK App, paying with HSBC’s RedCoin stablecoin.",
+      "num": "HK$100",
+      "numLabel": "minimum app subscription, funded with 100 RedCoin",
+      "mech": "whitelist",
+      "mechanism": "Each token represents one Class SD unit, and only whitelisted wallets of eligible distributors that pass anti-money-laundering checks can receive tokens; daily dividends are reinvested as new tokens. Ledger Insights reports the units are recorded on Ethereum, while RedCoin is converted to cash before the subscription completes.",
+      "implication": "A bank-issued stablecoin now serves as the payment rail into a regulated retail fund, one month after the RedCoin launch filed on October 25.",
+      "evidence": [
+        "Fund size HK$20,774M with a 32-day weighted average maturity, as of September 30, 2026",
+        "Class SD management fee of 0.30% a year; switching between classes is not permitted",
+        "Existing fund launched March 1, 1991, and rated AAAmmf by Fitch",
+        "Ledger Insights: settlement finality and the official ownership register stay off chain"
+      ],
+      "source": {
+        "n": "HSBC Asset Management",
+        "u": "https://www.assetmanagement.hsbc.com.hk/-/media/Files/attachments/hongkong/hsbc-global-money-funds-hong-kong-dollar/hsbc-gmf-tokenised-share-class-brochure-hk-retail.pdf"
+      },
+      "links": [
+        {
+          "t": "HSBC Hong Kong: HK$100 minimum funded with RCHKD 100",
+          "u": "https://www.hsbc.com.hk/investments/products/mutual-funds/"
+        },
+        {
+          "t": "Ledger Insights: Ethereum, off-chain register, RedCoin conversion to cash",
+          "u": "https://www.ledgerinsights.com/hsbc-unveils-its-first-retail-tokenized-mmf-with-redcoin-as-onramp/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-20-002",
+      "date": "2026-11-20",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Maybank and Etiqa settle a pilot tokenized Malaysian government bond trade against tokenized deposits",
+      "fact": "SettleMint said on November 20 that Maybank and its insurance arm, Etiqa Life Insurance Berhad, completed a pilot trade in tokenized Malaysian Government Securities, settled against tokenized deposits on Maybank’s permissioned blockchain. No trade size was disclosed.",
+      "num": "",
+      "numLabel": "",
+      "mech": "conditional",
+      "mechanism": "Both the bond and the cash were represented as tokens on the bank’s private ledger, so payment and delivery were linked and neither leg could settle alone, while Maybank kept custody of the underlying cash and securities.",
+      "implication": "It adds a Malaysian sovereign bond to the assets banks are testing for same-ledger settlement against their own tokenized deposits.",
+      "evidence": [
+        "Delivery-versus-payment workflow spanning onchain and conventional systems",
+        "Ran under Bank Negara Malaysia’s Digital Asset Innovation Hub, per Fintech News Malaysia",
+        "Built on SettleMint’s Digital Asset Lifecycle Platform",
+        "Follows Maybank’s March tokenized-deposit payment pilot with Yinson Holdings"
+      ],
+      "source": {
+        "n": "SettleMint (GlobeNewswire)",
+        "u": "https://www.manilatimes.net/2026/11/20/tmt-newswire/globenewswire/settlemint-supports-maybank-in-completing-its-tokenized-bond-pilot/2474861"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: Etiqa counterparty, custody, earlier Yinson pilot",
+          "u": "https://www.ledgerinsights.com/malaysias-largest-bank-maybank-pilots-tokenized-government-bond-settlement/"
+        },
+        {
+          "t": "Fintech News Malaysia: Digital Asset Innovation Hub, CEO comments",
+          "u": "https://fintechnews.my/62512/blockchain/maybank-etiqa-tokenised-mgs-pilot/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-11-20-003",
+      "date": "2026-11-20",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "Payoneer gets conditional OCC approval to form a national trust bank for stablecoin services",
+      "fact": "On November 20 Payoneer said the Office of the Comptroller of the Currency (OCC) granted preliminary conditional approval to form PAYO Digital Bank, a national trust bank. The bank can now organize while it seeks final approval to open.",
+      "num": "190+",
+      "numLabel": "markets where Payoneer’s network delivers local-currency payouts",
+      "mech": "compliance",
+      "mechanism": "After final approval, the bank plans to issue PAYO-USD, a fully reserved stablecoin under the GENIUS Act that will not be listed on exchanges and will serve as a balance inside Payoneer’s network.",
+      "implication": "A payments company is taking the federal trust-charter route to issue a dollar stablecoin under the GENIUS Act rules the OCC finalized, filed on October 22.",
+      "evidence": [
+        "Customers would hold stablecoin balances in bank-approved digital wallets",
+        "Plans to support paying and getting paid in third-party stablecoins and converting to local fiat",
+        "PAYO Digital Bank CEO Rob Morgan says more than one third of customers already use stablecoin"
+      ],
+      "source": {
+        "n": "Payoneer (PR Newswire)",
+        "u": "https://prnewswire.com/news-releases/payoneer-receives-occ-conditional-approval-to-form-stablecoin-national-trust-bank-302947358.html"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-19-001",
       "date": "2026-11-19",
