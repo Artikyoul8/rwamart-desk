@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T23:48:00-05:00",
+  "updated": "2026-11-21T23:48:27-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-21-001",
+      "date": "2026-11-21",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "ECB invites industry groups to test tokenized deposits and securities under Appia by December 11",
+      "fact": "On November 20 the European Central Bank (ECB) invited groups of market participants to join analysis and experiments under Appia, the Eurosystem's tokenization initiative. Applications for the first experiments are due December 11 at 12:00 CET, with later ones assessed on a rolling basis.",
+      "num": "3",
+      "numLabel": "priority design streams open to industry groups under Appia",
+      "mech": "",
+      "mechanism": "Firms cannot apply alone: they must form a collective initiative of independent legal entities and pick one or more design streams. The ECB scores proposals on expertise, technical readiness, expected outputs and resources committed.",
+      "implication": "Appia moves from roadmap to hands-on testing, putting banks and ledger operators to work on the rules that would link tokenized assets to central bank money, after Pontes went live in September.",
+      "evidence": [
+        "Design streams: tokenized deposits and related payments, tokenized securities, and shared network governance",
+        "Applications go through an online form, with Annex A as guidance and an offline form in Annex B",
+        "Geographic and stakeholder diversity count in the selection",
+        "The Eurosystem aims to publish an Appia blueprint by 2028"
+      ],
+      "source": {
+        "n": "European Central Bank",
+        "u": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews261120.en.html"
+      },
+      "links": [
+        {
+          "t": "ECB: Appia programme page and 2028 blueprint timeline",
+          "u": "https://www.ecb.europa.eu/paym/dlt/appia/html/index.en.html"
+        },
+        {
+          "t": "Cointelegraph: report on the November 20 invitation",
+          "u": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
     {
       "id": "MART-2026-11-20-001",
       "date": "2026-11-20",
