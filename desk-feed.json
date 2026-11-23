@@ -1,7 +1,72 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T23:48:27-05:00",
+  "updated": "2026-11-22T23:47:36-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-22-001",
+      "date": "2026-11-22",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Markets",
+      "tier": "A",
+      "head": "OKXICE's pre-launch notice lists six tokenized stocks, all from crypto and trading firms, and 67 objections",
+      "fact": "OKXICE's November 20 public notice lists six tokenized stocks tradable at launch, each paired with USDC: Coinbase, Securitize, Strategy, BitGo, Robinhood and Circle. It also lists 67 issuers that have objected. The Block reports the venue opens November 23.",
+      "num": "6",
+      "numLabel": "tokenized stocks listed as tradable at launch in OKXICE's notice",
+      "mech": "whitelist",
+      "mechanism": "Securitize Markets holds one share at a registered broker-dealer for each token and records ownership onchain, while OKXICE only runs Uniswap v4 pools on XLayer. A wallet can trade only if it holds a soulbound token issued after KYC checks and is on the tokenizer's whitelist.",
+      "implication": "Issuer objections have narrowed the first venue under the SEC exemption from the 63 tickers named in its October 4 filing to six stocks at launch.",
+      "evidence": [
+        "Objecting issuers include Apple, Microsoft, Nvidia, Alphabet, Meta, Tesla and JPMorgan Chase",
+        "Each listed token is issued by Securitize Markets and backed one-for-one by underlying shares",
+        "The notice says the venue runs 24/7, has no order book and takes no custody of user assets",
+        "Bitcoin.com News gives the opening time as 9 a.m. ET on November 23"
+      ],
+      "source": {
+        "n": "OKXICE TSV public notice",
+        "u": "https://www.okx.com/cdn/assets/okfe/web3-activities/okxicetsv/notices/OKXICE_Tokenized_Securities_Venue_Public_Notice_26.11.20.pdf"
+      },
+      "links": [
+        {
+          "t": "The Block: November 23 launch date and planned asset lineup",
+          "u": "https://www.theblock.co/news/regulation/2026-11-11-okxice-sets-nov-23-launch-for-tokenized-securities-venue-under-sec-innovation-exemption-437342"
+        },
+        {
+          "t": "Bitcoin.com News: 9 a.m. ET opening time and participating issuers",
+          "u": "https://news.bitcoin.com/finance/okxice-tokenized-stocks-launch-following-mass-company-objections/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-22-002",
+      "date": "2026-11-22",
+      "fr": "datadesk",
+      "lv": 2,
+      "topic": "Data",
+      "tier": "A",
+      "head": "Tokenized stocks hold $3.37B on RWA.xyz, down 8.25% in 30 days, as holders rise to 4.97M",
+      "fact": "RWA.xyz's tokenized stocks dashboard showed $3.37B of distributed value late on November 22 Eastern, down 8.25% from 30 days earlier. Holders rose 8.38% to 4.97M over the same period.",
+      "num": "$3.37B",
+      "numLabel": "distributed tokenized stock value on RWA.xyz, down 8.25% in 30 days",
+      "mech": "",
+      "mechanism": "Distributed value counts tokens that can move between wallets on public blockchains; RWA.xyz tracks assets only recorded onchain by an issuer separately. The total moves with share prices as well as with minting and redemptions.",
+      "implication": "Holder counts are growing while onchain value falls, the backdrop as OKXICE opens its venue with six tokenized stocks under the SEC exemption.",
+      "evidence": [
+        "Monthly transfer volume was $91.24B, up 3.97% in 30 days",
+        "Monthly active addresses fell 15.17% to 2,026,361",
+        "Largest tokens: NVIDIA bStocks (NVDAB) at $183.0M and Securitize Corp. (SECZ) at $162.8M"
+      ],
+      "source": {
+        "n": "RWA.xyz",
+        "u": "https://app.rwa.xyz/stocks"
+      },
+      "links": [],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-21-001",
       "date": "2026-11-21",
