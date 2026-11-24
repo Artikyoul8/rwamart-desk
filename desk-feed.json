@@ -1,7 +1,81 @@
 {
   "schema": 1,
-  "updated": "2026-11-22T23:47:36-05:00",
+  "updated": "2026-11-23T23:46:20-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-23-001",
+      "date": "2026-11-23",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Markets",
+      "tier": "A",
+      "head": "OKXICE opens 24/7 tokenized securities venue with 113 assets confirmed for a phased rollout",
+      "fact": "On November 23 OKXICE, the joint venture of OKX and Intercontinental Exchange, opened its tokenized securities venue at noon Eastern for eligible U.S. customers of OKX Inc. It lists 113 confirmed stocks, ETFs and exchange-traded products, rolling out in phases under the SEC's temporary Innovation Exemption.",
+      "num": "113",
+      "numLabel": "assets confirmed for phased rollout, including stocks, ETFs and ETPs",
+      "mech": "whitelist",
+      "mechanism": "Each token is a security entitlement backed one-to-one by a share, passing through dividends, votes and corporate actions. Smart contracts limit trading and liquidity provision to eligible wallets, and customers hold tokens in self-custodial wallets.",
+      "implication": "The pre-launch notice filed here on November 22 named six stocks; fund-manager deals have widened the list, but the first live test of the SEC exemption runs without most large issuers.",
+      "evidence": [
+        "Named issuers and asset managers include Fidelity Investments, eToro, Strive, Direxion, Coinbase, Circle and Robinhood",
+        "Trades run through Uniswap v4 pools on X Layer, OKX's Ethereum layer 2; Securitize is the tokenization provider",
+        "CoinDesk counted 56 of the 62 companies first selected as objecting; OKXICE declined to publish the full asset list"
+      ],
+      "source": {
+        "n": "OKX",
+        "u": "https://www.okx.com/en-us/learn/okxice-tsv-launch-going-live"
+      },
+      "links": [
+        {
+          "t": "Securitize: tokenization provider release and venue structure",
+          "u": "https://www.prnewswire.com/news-releases/securitize-serves-as-tokenization-provider-for-okxices-newly-launched-247-securities-trading-venue-302947862.html"
+        },
+        {
+          "t": "CoinDesk: new participants and objection tally",
+          "u": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue"
+        },
+        {
+          "t": "The Block: launch report and regulatory basis",
+          "u": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-23-002",
+      "date": "2026-11-23",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "ECB will accept assets issued on DLT Pilot Regime platforms as Eurosystem collateral from June 2027",
+      "fact": "On November 23 the European Central Bank's Governing Council approved accepting marketable assets issued on platforms licensed under the EU's DLT Pilot Regime as collateral for Eurosystem credit operations. Detailed requirements are due in spring 2027, with implementation planned for June 2027.",
+      "num": "June 2027",
+      "numLabel": "planned start for accepting DLT Pilot Regime assets as collateral",
+      "mech": "",
+      "mechanism": "Banks pledge eligible collateral to borrow from the Eurosystem. Tokenized assets from licensed DLT platforms can now qualify if they reach the Eurosystem through a central securities depository link that settles on TARGET2-Securities.",
+      "implication": "Central bank eligibility gives tokenized euro securities a funding use, though only through existing depository rails. It follows the ECB's Appia call filed here on November 21.",
+      "evidence": [
+        "Assets must meet all standard collateral eligibility criteria",
+        "The linked settlement system must comply with the CSD Regulation and offer settlement on TARGET2-Securities (T2S)",
+        "DLT platforms must meet added requirements on settlement finality designation and outsourcing",
+        "Extends a January 27, 2026 decision on assets issued in CSDs using DLT-based services"
+      ],
+      "source": {
+        "n": "European Central Bank",
+        "u": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: analysis of which platforms may qualify",
+          "u": "https://www.ledgerinsights.com/ecb-expands-tokenized-collateral-eligibility-to-dlt-pilot-regime-platforms/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-22-001",
       "date": "2026-11-22",
