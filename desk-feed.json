@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-23T23:46:20-05:00",
+  "updated": "2026-11-24T23:48:34-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-24-001",
+      "date": "2026-11-24",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "Swiss National Bank and eight firms start exploring a shared ledger for central bank money and securities",
+      "fact": "On November 24 the Swiss National Bank (SNB) opened an exploratory Swiss Financial Ledger project with UBS, SIX, Zürcher Kantonalbank, PostFinance, Banque Cantonale Vaudoise, Basler Kantonalbank, Sygnum Bank and Seturion. It will test whether one ledger can serve domestic and cross-border deals.",
+      "num": "8",
+      "numLabel": "institutions joining the SNB in the exploratory project",
+      "mech": "",
+      "mechanism": "The study looks at a distributed ledger technology (DLT) platform where central bank money, commercial bank money and securities sit side by side, so a trade and its payment could settle on one system. It is part of Project Helvetia and builds on Project Agorá, the BIS and Institute of International Finance work on cross-border payments.",
+      "implication": "The SNB is testing whether tokenized securities and central bank money can share one domestic ledger, while stating the study is no commitment to launch it.",
+      "evidence": [
+        "Goals: assess technical design and architecture options, and define governance and operating frameworks",
+        "A Helvetia Strategic Board of the participants steers the work, with the Swiss Bankers Association as observer",
+        "The SNB calls today's Swiss market infrastructure \"highly efficient\" and frames the ledger as a possible extension",
+        "The release gives no timeline and says the SNB has not decided to issue tokenized central bank money to institutions"
+      ],
+      "source": {
+        "n": "Swiss National Bank",
+        "u": "https://www.snb.ch/en/publications/communication/press-releases/2026/pre_20261124_2"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: roles of SIX, Seturion and the existing wholesale CBDC pilot",
+          "u": "https://www.ledgerinsights.com/snb-ubs-six-explore-swiss-distributed-ledger-for-payments-securities-settlement/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-24-002",
+      "date": "2026-11-24",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Markets",
+      "tier": "A",
+      "head": "HSBC, J.P. Morgan and StoneX complete first live trades in pooled digital gold interests in London",
+      "fact": "On November 24 the World Gold Council (WGC) said HSBC, J.P. Morgan and StoneX traded, settled and pledged as collateral Pooled Gold Interests in its Wholesale Digital Gold pilot. The WGC called them the first live, binding wholesale deals of this kind; trade values were not disclosed.",
+      "num": "400 oz",
+      "numLabel": "London Good Delivery bars placed into the pilot system",
+      "mech": "",
+      "mechanism": "Bars held in London were pooled, and participants received Pooled Gold Interests, a proprietary interest in the pooled metal that moves electronically while the bars stay in the vault. Baton Systems ran it on a permissioned ledger without issuing tokens, with ICE Benchmark Administration as operator.",
+      "implication": "Physical gold gains digital settlement and collateral use without a token, as the UK Financial Conduct Authority reviews responses on tokenized gold as collateral.",
+      "evidence": [
+        "ICE Benchmark Administration operated the pilot; Baton Systems supplied the technology",
+        "After settlement the gold was withdrawn from the system, completing the full lifecycle",
+        "Linklaters and Hilltop Walk Consulting advised the WGC; the concept dates from a September 2025 white paper",
+        "The WGC says the system is at pilot stage and complements allocated and unallocated settlement"
+      ],
+      "source": {
+        "n": "World Gold Council (release via Baton Systems)",
+        "u": "https://batonsystems.com/insights/press-releases/world-gold-council-facilitates-first-live-transactions-using-pooled-gold-interests/"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: London market context and status of the trial",
+          "u": "https://www.coindesk.com/business/2026/11/24/jpmorgan-hsbc-and-stonex-complete-first-digital-gold-trades-in-london"
+        },
+        {
+          "t": "Ledger Insights: permissioned DLT without tokens, collateral eligibility context",
+          "u": "https://www.ledgerinsights.com/hsbc-jp-morgan-settle-first-live-digital-gold-collateral-trades/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-11-24-003",
+      "date": "2026-11-24",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Markets",
+      "tier": "B",
+      "head": "Neuberger Securitize high-yield fund HINC goes live as collateral on Aave Horizon",
+      "fact": "On November 24 the Neuberger Securitize High Income Tokenized Fund (HINC) went live as collateral on Aave Horizon, Aave Labs' permissioned lending market on Ethereum, The Block and Unchained reported. Qualified HINC holders can borrow USDC, GHO and RLUSD against their shares.",
+      "num": "$500M",
+      "numLabel": "total deposits on Aave Horizon, per The Block",
+      "mech": "whitelist",
+      "mechanism": "Horizon lets only investors cleared by the asset issuer post tokenized fund shares as collateral, while anyone can supply stablecoins to lend. HINC holds mostly high-yield corporate bonds and collateralized loan obligation (CLO) tranches, with Neuberger Berman as sub-adviser.",
+      "implication": "Horizon collateral has mostly been tokenized Treasuries and higher-rated assets; sub-investment-grade credit tests how onchain lenders handle riskier tokenized funds.",
+      "evidence": [
+        "Securitize's Aave governance proposal, filed August 18, called HINC the first sub-investment-grade credit collateral on Horizon",
+        "Borrowable stablecoins: Circle's USDC, Aave's GHO and Ripple's RLUSD",
+        "Neuberger Berman manages $230B in assets, per The Block",
+        "Securitize brought HINC onchain in August 2026"
+      ],
+      "source": {
+        "n": "The Block",
+        "u": "https://www.theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391"
+      },
+      "links": [
+        {
+          "t": "Unchained: eligibility rules, fund holdings and Securitize statement",
+          "u": "https://unchainedcrypto.com/securitizes-high-yield-fund-hinc-goes-live-as-collateral-on-aave-horizon/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-23-001",
       "date": "2026-11-23",
