@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T23:48:34-05:00",
+  "updated": "2026-11-25T23:48:29-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-25-001",
+      "date": "2026-11-25",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Infrastructure",
+      "tier": "A",
+      "head": "HKMA launches CMU Digital Asset Platform to tokenize existing bonds and settle them around the clock",
+      "fact": "On November 25 the Hong Kong Monetary Authority (HKMA) launched the CMU Digital Asset Platform, a distributed-ledger system of its Central Moneymarkets Unit (CMU) bond depository. CMU OmniClear runs it for the HKMA, covering issuance, settlement, coupons and redemption.",
+      "num": "24-hour",
+      "numLabel": "multi-currency settlement using cash tokens",
+      "mech": "conditional",
+      "mechanism": "Bonds and cash tokens swap in one atomic step, so neither leg moves without the other, and the platform connects directly to Hong Kong's real-time gross settlement systems and central bank digital currencies. It can also tokenize bonds that were first issued in conventional form.",
+      "implication": "With EnsembleTX settling tokenized deposits in central bank money since November 2, Hong Kong now has ledger rails for both the cash and the securities leg.",
+      "evidence": [
+        "Plans include funds and other real-world assets, plus links to tokenized deposits and regulated stablecoins",
+        "Atomic delivery versus payment (DvP) is the settlement model",
+        "Ledger Insights reports HKD, USD, EUR and CNY settlement at launch, including e-HKD and e-CNY",
+        "Earlier CMU digital bond issues ran on HSBC Orion, per Ledger Insights"
+      ],
+      "source": {
+        "n": "Hong Kong Monetary Authority",
+        "u": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261125-3/"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: launch currencies and prior use of HSBC Orion",
+          "u": "https://www.ledgerinsights.com/hong-kong-csd-launches-cmu-dap-adds-tokenization-of-conventional-bonds/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-25-002",
+      "date": "2026-11-25",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "SEC investor advisory committee sets 90-minute December 3 panel on the tokenized stock exemption",
+      "fact": "On November 25 the Securities and Exchange Commission (SEC) said its Investor Advisory Committee will meet virtually on December 3. The agenda opens with a 10:00 to 11:30 a.m. ET panel on tokenizing U.S. public company shares under the SEC's September Innovation Exemption.",
+      "num": "0.25%",
+      "numLabel": "per-venue volume cap for S&P 500 and Russell 1000 shares",
+      "mech": "compliance",
+      "mechanism": "The exemption lets tokenized securities venues and some liquidity providers operate without registering as exchanges or dealers, and lets retail investors trade on them without a broker. Public companies may opt out.",
+      "implication": "The panel follows the OKXICE launch and senators' questions on the exemption, putting its investor-protection terms before the SEC's statutory adviser.",
+      "evidence": [
+        "Panelists: Amanda Fischer (Better Markets), Andree Goldsmith (OKX), Timothy Massad (Harvard Kennedy School), Brett Redfearn (Securitize)",
+        "Trading cap is 2.5% of average daily volume for companies outside the S&P 500 and Russell 1000",
+        "Panel scope includes possible reforms and forms of tokenized equities",
+        "Chairman Atkins gives opening remarks at 9:45 a.m. ET"
+      ],
+      "source": {
+        "n": "U.S. Securities and Exchange Commission",
+        "u": "https://www.sec.gov/about/advisory-committees/investor-advisory-committee/iac120326-agenda"
+      },
+      "links": [
+        {
+          "t": "SEC: press release announcing the December 3 meeting",
+          "u": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
+    {
+      "id": "MART-2026-11-25-003",
+      "date": "2026-11-25",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Institutional",
+      "tier": "B",
+      "head": "BlackRock opens its first Hong Kong tokenized money market fund with $100M seeded by StanChart and Ant",
+      "fact": "On November 24 BlackRock announced the launch of the BlackRock HKD Digital Liquidity Fund, its first tokenized money market fund in Hong Kong, The Block reported. The fund held $100M as of November 20, seeded by Standard Chartered and Ant International.",
+      "num": "$100M",
+      "numLabel": "assets under management as of November 20, per BlackRock's statement",
+      "mech": "distribution",
+      "mechanism": "Fund units are recorded on a blockchain, and professional investors can subscribe and redeem with HKDAP, a Hong Kong dollar stablecoin issued by Anchorpoint Financial, instead of only bank transfers.",
+      "implication": "Days after HSBC's tokenized Hong Kong dollar fund share class, a second global manager now settles local fund units against a Hong Kong dollar stablecoin.",
+      "evidence": [
+        "Standard Chartered is custodian, trustee and tokenization agent, per Ledger Insights",
+        "Ledger Insights reports launch on Ethereum mainnet",
+        "Fourth currency for BlackRock tokenized money market funds, after USD, EUR and GBP, per Ledger Insights",
+        "BlackRock's fund page says it is intended only for Hong Kong residents"
+      ],
+      "source": {
+        "n": "The Block",
+        "u": "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: seed investors, Standard Chartered roles, Ethereum",
+          "u": "https://www.ledgerinsights.com/blackrock-launches-100m-hkd-tokenized-mmf-with-ant-intl-stanchart-as-investors/"
+        },
+        {
+          "t": "BlackRock: fund page and eligibility",
+          "u": "https://www.blackrock.com/hk/en/investment-ideas/hkd-digital-liquidity-fund"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-24-001",
       "date": "2026-11-24",
