@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T23:48:29-05:00",
+  "updated": "2026-11-26T23:47:27-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-26-001",
+      "date": "2026-11-26",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Institutional",
+      "tier": "A",
+      "head": "SBI, SMBC and Solana Foundation start SBI Solana Global for stablecoin payments and tokenized assets",
+      "fact": "In a November 25 release, SBI Holdings, Sumitomo Mitsui Financial Group (SMFG) and the Solana Foundation said they completed agreements for a three-party joint venture. The former SBI R3 Japan has begun full-scale operations in Tokyo as SBI Solana Global.",
+      "num": "4",
+      "numLabel": "core business areas named for the venture",
+      "mech": "",
+      "mechanism": "The venture will build on the Solana blockchain: stablecoin payment rails, tokenized bonds, funds and loan receivables, tokenized commodities and other real assets, and onchain asset management. It starts in Japan and plans to expand across Asia.",
+      "implication": "A Japanese megabank group and SBI now share one vehicle for tokenized-asset issuance and stablecoin payments on a public chain, moving away from its earlier Corda base.",
+      "evidence": [
+        "The company was formerly SBI R3 Japan, built on R3's Corda ledger",
+        "Payment rails include cross-border remittances and micropayments by AI agents",
+        "Assets named for tokenization: bonds, investment funds and loan receivables",
+        "The release discloses no investment amount or ownership split"
+      ],
+      "source": {
+        "n": "SBI Holdings",
+        "u": "https://www.sbigroup.co.jp/english/news/pdf/2026/1125_a_en.pdf"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: R3 history and earlier SMBC stake",
+          "u": "https://www.ledgerinsights.com/sbi-smbc-launch-solana-joint-venture-for-stablecoin-payments-and-tokenization/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-26-002",
+      "date": "2026-11-26",
+      "fr": "tape",
+      "lv": 2,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "EBA finds stablecoins, including MiCA e-money tokens, are central to DeFi lending and trading",
+      "fact": "On November 25 the European Banking Authority (EBA) published a report on the use of e-money tokens (EMTs) and other stablecoins in decentralized finance. It found they supply DeFi's liquidity, collateral and settlement, and flagged consumer-protection and regulatory-arbitrage risks.",
+      "num": "42%",
+      "numLabel": "of European-based investors expect to engage with DeFi by 2028",
+      "mech": "",
+      "mechanism": "Under the EU's Markets in Crypto-Assets Regulation (MiCA), EMT issuers may not pay interest. The EBA warns DeFi lending can offer stablecoin yield anyway, and that crypto-asset service providers (CASPs) increasingly act as gateways to it.",
+      "implication": "Regulated stablecoins are the settlement asset for onchain markets; the EBA wants the MiCA review to decide how far rules follow them into DeFi.",
+      "evidence": [
+        "Risks named include thin disclosure, high leverage and unrepaid stablecoin loans",
+        "EMT use in DeFi may pass risks to issuers and to CASPs",
+        "EBA asks the Commission to weigh added rules for CASPs offering DeFi lending",
+        "Germany, France and Spain lead the EU but rank 18th, 19th and 26th globally"
+      ],
+      "source": {
+        "n": "European Banking Authority",
+        "u": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-examines-use-stablecoins-including-emts-decentralised-finance"
+      },
+      "links": [
+        {
+          "t": "Ledger Insights: USDC most used MiCA stablecoin in DeFi",
+          "u": "https://www.ledgerinsights.com/eu-banking-regulator-concerned-about-impact-of-defi-on-investors-stablecoins/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-25-001",
       "date": "2026-11-25",
