@@ -1,7 +1,82 @@
 {
   "schema": 1,
-  "updated": "2026-11-26T23:47:27-05:00",
+  "updated": "2026-11-27T23:48:07-05:00",
   "entries": [
+    {
+      "id": "MART-2026-11-27-001",
+      "date": "2026-11-27",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Stablecoins",
+      "tier": "A",
+      "head": "B3 and six Brazilian banks plan Open BRL, a shared real-pegged stablecoin issued by Banco B3",
+      "fact": "On November 27 B3, operator of Brazil’s stock exchange, said it will build Open BRL, a stablecoin pegged to the real, with Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP. Banco B3 will issue it; B3 product chief Luiz Masagão told Valor Econômico launch is expected in the first quarter of 2027.",
+      "num": "6",
+      "numLabel": "banks and brokerages joining B3 as initial Open BRL partners",
+      "mech": "",
+      "mechanism": "Banco B3 issues the token and, per CoinDesk, holds one real in reserve for each coin, redeemable at any time, while B3 runs the technology and partners build integrations. Banks keep their own tokens for internal use and move funds between one another in Open BRL.",
+      "implication": "Brazil’s largest lenders are backing one shared settlement coin rather than rival bank tokens, with settlement of tokenized stocks on B3 named as a use case.",
+      "evidence": [
+        "B3 cites anti-money-laundering controls, cybersecurity protocols and continuous audit and backing mechanisms",
+        "Operating details and governance remain subject to further definitions and approvals, B3 said",
+        "CoinDesk, citing Valor, reports other institutions can join from launch and the central bank has been briefed",
+        "Brazilians declared R$404.8B of stablecoin trades in 2025, per Receita Federal data cited by CoinDesk"
+      ],
+      "source": {
+        "n": "B3",
+        "u": "https://borainvestir.b3.com.br/noticias/b3-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais/"
+      },
+      "links": [
+        {
+          "t": "CoinDesk: reserve, redemption, governance and Brazil stablecoin data",
+          "u": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin"
+        },
+        {
+          "t": "Unchained: B3 release and Valor timing compared",
+          "u": "https://unchainedcrypto.com/brazils-b3-enlists-itau-santander-and-four-other-firms-for-open-brl-stablecoin/"
+        },
+        {
+          "t": "Ledger Insights: Q1 2027 launch and spin-off plan",
+          "u": "https://www.ledgerinsights.com/brazils-b3-exchange-partners-itau-bradesco-santander-others-for-brl-stablecoin/"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": "",
+      "lead": true
+    },
+    {
+      "id": "MART-2026-11-27-002",
+      "date": "2026-11-27",
+      "fr": "tape",
+      "lv": 3,
+      "topic": "Policy",
+      "tier": "A",
+      "head": "Bank of Japan's Kamiyama says stablecoins need reserve rules and links to central bank money",
+      "fact": "On November 27 Bank of Japan (BOJ) Executive Director Kazushige Kamiyama told an International Monetary Fund (IMF) seminar in Tokyo that the singleness of money cannot be taken for granted. He said stablecoins need appropriate regulation of reserves and arrangements, plus well-designed links to central bank money.",
+      "num": "5",
+      "numLabel": "tokenization challenges he named, from stability to legal certainty",
+      "mech": "",
+      "mechanism": "The BOJ’s DLT Sandbox Project, built with holders of current accounts at the bank, tests cross-border payments, domestic interbank settlement and cash settlement of tokenized Japanese government bonds, including whether to offer central bank money in tokenized form.",
+      "implication": "Like Fed Governor Waller on November 17, the BOJ puts central bank money at the base of tokenized settlement, with stablecoins tied to it through regulation.",
+      "evidence": [
+        "Challenges named: financial stability, liquidity fragmentation, migration and governance, cybersecurity, legal certainty",
+        "Technical finality on a ledger is not necessarily legal finality for tokenized reserves, he said",
+        "The BOJ takes part in Project Agorá with several central banks and more than 40 private firms",
+        "No decision has been made to issue a retail central bank digital currency, though a pilot continues"
+      ],
+      "source": {
+        "n": "Bank of Japan",
+        "u": "https://www.boj.or.jp/en/about/press/koen_2026/data/ko261127a.pdf"
+      },
+      "links": [
+        {
+          "t": "The Block: report on the speech",
+          "u": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059"
+        }
+      ],
+      "record": "Wire only",
+      "xUrl": ""
+    },
     {
       "id": "MART-2026-11-26-001",
       "date": "2026-11-26",
